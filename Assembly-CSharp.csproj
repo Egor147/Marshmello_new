@@ -42,15 +42,17 @@
      <Compile Include="Assets\Scripts 1\Dead.cs" />
      <Compile Include="Assets\Scripts 1\CameraMovement.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
+     <Compile Include="Assets\Scripts 1\Jelly.cs" />
      <Compile Include="Assets\Scripts 1\Player\Checkpoint.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Slow.cs" />
      <Compile Include="Assets\Scripts 1\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\ExitMenu.cs" />
-     <Compile Include="Assets\Scripts 1\Push.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Weak.cs" />
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
-     <Compile Include="Assets\Scripts 1\Jelly.cs" />
+     <Compile Include="Assets\Scripts 1\Toasts\Up.cs" />
+     <Compile Include="Assets\Scripts 1\Toasts\Down.cs" />
+     <Compile Include="Assets\Scripts 1\Toasts\Toast.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
