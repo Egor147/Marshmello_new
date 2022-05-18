@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetButtonDown("Jump")){
                     if (Running)
                         Jump(JumpPower+k+RunJumpPowerRatio);
-                    else Jump(JumpPower+k);
+                    else Jump(JumpPower);
                 }
     }
 
@@ -103,10 +103,10 @@ public class PlayerController : MonoBehaviour
             Jumping = false;
             k=0;
         }
-        else if(other.gameObject.CompareTag("Jelly")){
+        /*else if(other.gameObject.CompareTag("Jelly")){
             Jumping = false;
             k = other.gameObject.GetComponent<Jelly>().Ratio;
-        }
+        }*/
         else if (other.gameObject.CompareTag("Slippery")){
             Slipper = true;
             SSpeed = rb.velocity.x;
