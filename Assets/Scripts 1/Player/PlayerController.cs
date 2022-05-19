@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private float timer = 0, SSpeed;
     [SerializeField] private Vector3 ScaleWhenSlide;
     public static bool GameOver, Jumping, Pushing;
-    private bool Running, OnJelly, NormalScale, Slipper;
+    private bool Running, NormalScale, Slipper;
     private Vector3 StartScale, Rotate;
     Transform tr;
     Rigidbody rb;
@@ -20,7 +20,6 @@ public class PlayerController : MonoBehaviour
         Pushing = false;
         Jumping = false;
         Running = false;
-        OnJelly = false;
         NormalScale = true;
         tr = gameObject.GetComponent<Transform>();
         rb = gameObject.GetComponent<Rigidbody>();
