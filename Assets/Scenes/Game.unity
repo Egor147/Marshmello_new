@@ -284,6 +284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8608684994355165287, guid: eae23a2c8734d4c4b99dacd82cb823a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 606f7070676b0934fb7e963f9a338794, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eae23a2c8734d4c4b99dacd82cb823a9, type: 3}
 --- !u!1 &182886015 stripped
@@ -1654,6 +1658,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeadMenu: {fileID: 1199643300}
+--- !u!1 &1747341134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5857802924515387644, guid: 021c44f03682d3b41b50a98cbe6c86f7, type: 3}
+  m_PrefabInstance: {fileID: 501531093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1747341138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05bd671a36fb6e04080a0b9355d64b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TutorialCanvas: {fileID: 1199643300}
 --- !u!1 &1967959058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2248903363198998796, guid: 6206eca35c95d7b428a75e94ceba8fe1, type: 3}
