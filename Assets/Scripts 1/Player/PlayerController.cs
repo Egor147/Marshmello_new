@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float XSpeed, ZSpeed, JumpPower, PushXSpeed, PushZSpeed, RotationAngle, BoostInSlipper, RunJumpPowerRatio;
+    [SerializeField] private float JumpPower, PushXSpeed, PushZSpeed, RotationAngle, BoostInSlipper, RunJumpPowerRatio;
+    public float Speed;
+    [SerializeField] private GameObject DeadMenu;
     private float timer = 0, SSpeed;
     [SerializeField] private Vector3 ScaleWhenSlide;
     public static bool GameOver, Jumping, Pushing;
@@ -33,21 +35,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (!GameOver){
-            if (!Pushing){
                 if (Input.GetButton("Run")){
-                    Move(XSpeed*2, ZSpeed*2);
+                    Move(Speed*2);
                     Running = true;
                 }
                 else{
                     Running = false;
-                    Move(XSpeed,ZSpeed);
+                    Move(Speed);
                 }
                 if (NormalScale)
                     if (Input.GetButtonDown("Slide"))
                         Slide();
-            }else{
-                Move(PushXSpeed, PushZSpeed);
-            }
+        } else {
+            Dead();
         }
     }
 
@@ -61,18 +61,17 @@ public class PlayerController : MonoBehaviour
                 }
     }
 
-    public void Move(float HorizontalSpeed, float VerticalSpeed){
+    public void Move(float Speed){
         float inputZ = Input.GetAxis("Horizontal");
         float inputX = 1f;
         if (!Slipper){
             inputX = Input.GetAxis("Vertical");
-            rb.velocity = new Vector3(inputX*HorizontalSpeed,rb.velocity.y,inputZ*VerticalSpeed);
+            rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
         }else{
             timer += Time.deltaTime;
-            rb.velocity = new Vector3(SSpeed*inputX + BoostInSlipper*timer,rb.velocity.y,inputZ*VerticalSpeed);
+            rb.velocity = new Vector3(SSpeed*inputX + BoostInSlipper*timer,rb.velocity.y,inputZ*Speed);
         }
-        
-        Rotate = tr.rotation.eulerAngles +  Vector3.one * RotationAngle*inputZ;
+    
         if (inputX<0)
             Rotation((RotationAngle*-inputZ + 180));
         else
@@ -81,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
     void Slide(){
         StartCoroutine(Waiting(2));
-        tr.localScale = ScaleWhenSlide;
+        tr.localScale = new Vector3(tr.localScale.x*ScaleWhenSlide.x,tr.localScale.y*ScaleWhenSlide.y,tr.localScale.z*ScaleWhenSlide.z);
         NormalScale = false;
     }
 
@@ -102,28 +101,25 @@ public class PlayerController : MonoBehaviour
             Jumping = false;
             k=0;
         }
-        /*else if(other.gameObject.CompareTag("Jelly")){
-            Jumping = false;
-            k = other.gameObject.GetComponent<Jelly>().Ratio;
-        }*/
+
         else if (other.gameObject.CompareTag("Slippery")){
             Slipper = true;
             SSpeed = rb.velocity.x;
         }
     }
-    /*void OnTriggerStay(Collider other){
-        if (other.gameObject.CompareTag("Slippery")){
-            Slipper = true;
-        }
-    }*/
+    
     void OnTriggerExit(Collider other){
         if (other.gameObject.CompareTag("Slippery")){
             Slipper = false;
             timer = 0;
-            //rb.AddForce(new Vector3(-12,0,0),ForceMode.Impulse);
         }
     }
     void Rotation (float Rotation){
-        tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);;
+        tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
+    }
+    void Dead(){
+        DeadMenu.SetActive(true);
+        DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
     }
 }
+

@@ -6,7 +6,8 @@ public class Comforka : MonoBehaviour
 {
     private Renderer rend;
     private Color StartColor, EndColor;
-    [SerializeField] private float t, Step;
+    [SerializeField] private float Step;
+    private float t;
     private bool ready = true;
     public bool  Go;
     [SerializeField] private GameObject Fire;
@@ -21,9 +22,6 @@ public class Comforka : MonoBehaviour
 
     void Update(){
         if (Go || (!Go && rend.material.color != Color.black)){
-            /*if (!Go){
-                Fire.SetActive(false);
-            }*/
             if (t >= 1 || rend.material.color == EndColor){
                 ready = false;
                 t=0;

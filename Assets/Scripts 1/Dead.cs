@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Dead : MonoBehaviour
 {
-    [SerializeField] private GameObject DeadMenu;
+    private bool already = false;
 
-    void OnTriggerEnter(Collider other){
-        if (other.gameObject.CompareTag("Player")){
-            DeadMenu.SetActive(true);
-            DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
+    void OnTriggerStay(Collider other){
+        if (other.gameObject.CompareTag("Player") && !already){
             PlayerController.GameOver = true;
+            already = true;
         }
         
     }
