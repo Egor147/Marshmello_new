@@ -15,11 +15,11 @@ D:/Unity/Marshmello_new
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50850
+55292
 Successfully changed project path to: D:/Unity/Marshmello_new
 D:/Unity/Marshmello_new
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
 [Subsystems] Discovering subsystems at path D:/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.34f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003053 seconds.
+Registered in 0.001566 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1093ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (330ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003005 seconds.
+Registered in 0.002671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
+- Completed reload, in  1.891 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1996ms)
-		BeginReloadAssembly (261ms)
+	ReloadAssembly (1892ms)
+		BeginReloadAssembly (328ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1643ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1449ms)
+			LoadAssemblies (233ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (608ms)
+			SetupTypeCache (486ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (541ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (552ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (386ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.6 MB.
-System memory in use after: 78.7 MB.
+System memory in use before: 78.7 MB.
+System memory in use after: 78.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 7.040000 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.048400 ms MarkObjects: 6.658800 ms  DeleteObjects: 0.140400 ms)
+Total: 4.333200 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.045800 ms MarkObjects: 3.950500 ms  DeleteObjects: 0.110900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,55 +132,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/marshmello
-  artifactKey: Guid(7b23b37632d0e1e4ab4c30e95ceb231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello using Guid(7b23b37632d0e1e4ab4c30e95ceb231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcbc2089c60897c48b46fc5670ec9af') in 0.015825 seconds 
+  path: Assets/anim_Jelly.fbx
+  artifactKey: Guid(f86f2cb87af3bb244afadd7f878d1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/anim_Jelly.fbx using Guid(f86f2cb87af3bb244afadd7f878d1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462eb36f028f7e3ae1ec32dca102040b') in 0.246952 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
+  Time since last request: 580.778139 seconds.
+  path: Assets/box
+  artifactKey: Guid(d8c8257758cca2c47ad7d4f08eb6357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/box using Guid(d8c8257758cca2c47ad7d4f08eb6357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3379726c621d8371c39be7ba344b0a9') in 0.013286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.329853 seconds.
+  path: Assets/food/eg/eg.fbx
+  artifactKey: Guid(193ce9c70c8a4534cab8e831f5e53b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg/eg.fbx using Guid(193ce9c70c8a4534cab8e831f5e53b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decf46cb29babc85b6e7f54192b50971') in 0.156088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/food/eg/eg1_ao.png
+  artifactKey: Guid(ee9cc52cdb5117a4f9c8710aae987c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg/eg1_ao.png using Guid(ee9cc52cdb5117a4f9c8710aae987c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce0b9c5255e032d2a9ac56fa8c77c46') in 0.065884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/food/eg/eg1.mat
+  artifactKey: Guid(4ce9b3b0e32857f4fb758c1defe11fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg/eg1.mat using Guid(4ce9b3b0e32857f4fb758c1defe11fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1269130965f528a038056bc9462659f2') in 0.030459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/food/eg/eg_normal.psd
+  artifactKey: Guid(c40908834ddcf5e48a44a929da44c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg/eg_normal.psd using Guid(c40908834ddcf5e48a44a929da44c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459ec209b03be118926574d13981aff8') in 0.061752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/food/eg
+  artifactKey: Guid(0922732f833f2544794a8fb83467e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg using Guid(0922732f833f2544794a8fb83467e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e16d605acd91d2e9a4e9290cda999') in 0.004287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/food/eg/eg1_ao.psd
+  artifactKey: Guid(a396cdfebb6e8024f866bb981a509de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/eg/eg1_ao.psd using Guid(a396cdfebb6e8024f866bb981a509de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90727794dd0425e622a537835fb3265') in 0.028793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.997146 seconds.
+  path: Assets/food/fruits
+  artifactKey: Guid(a2868e1eff3fb5f4dbb10c2b93296214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits using Guid(a2868e1eff3fb5f4dbb10c2b93296214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7c8904a8e5800ab7ed2b63bffc1a3') in 0.013923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.125379 seconds.
+  path: Assets/food/fruits/apple
+  artifactKey: Guid(62a3bf7593f6a1246b1b2b8e10159b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/apple using Guid(62a3bf7593f6a1246b1b2b8e10159b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc538d6cda6117205b574ba90b16497c') in 0.016972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.961420 seconds.
+  path: Assets/food/fruits/grape.fbx
+  artifactKey: Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape.fbx using Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f9b4046bd7479036f52ced457cd41') in 0.256048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.191146 seconds.
+  path: Assets/food/fruits/grape.fbx
+  artifactKey: Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape.fbx using Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf263b9897abb40e1ea1501811fed2a') in 0.239708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/food/fruits/grape.png
+  artifactKey: Guid(1519b828bb102ad4f957f1016b442ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape.png using Guid(1519b828bb102ad4f957f1016b442ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e9078a4d4198532345f92cab1ee204') in 0.020556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.181331 seconds.
+  path: Assets/food/fruits/grape_ao.psd
+  artifactKey: Guid(00b546883651b8f489ce2f6fec68d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape_ao.psd using Guid(00b546883651b8f489ce2f6fec68d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd993bde5cd73e1cf2046ad9e05c10') in 0.026267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/food/fruits/grape_normal.psd
+  artifactKey: Guid(47f1e789e51ef90499b2a5275a08b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape_normal.psd using Guid(47f1e789e51ef90499b2a5275a08b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763304e2a6fbc2b1af4ec5deb0b5265') in 0.027582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.803974 seconds.
+  path: Assets/food/fruits/grape.mat
+  artifactKey: Guid(dec37937f61b61c48a5cf419e3cd94e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape.mat using Guid(dec37937f61b61c48a5cf419e3cd94e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09d8a16a0accc12368b717daf2072f9') in 0.032942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.504323 seconds.
+  path: Assets/food/fruits/grape
+  artifactKey: Guid(2faf5b0eb63a0104fb3616111e0b3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape using Guid(2faf5b0eb63a0104fb3616111e0b3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68d760bb9e709391fb7df7cdea0818f') in 0.016482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.954438 seconds.
+  path: Assets/food/fruits/grape/grape.mat
+  artifactKey: Guid(c528b1c7708f5fc489a508e5f0a8663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/fruits/grape/grape.mat using Guid(c528b1c7708f5fc489a508e5f0a8663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738b94b2677c053e41e46c99bd9a2be0') in 0.036380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9191.555200 seconds.
   path: Assets/marshmello/marshmello.fbx
   artifactKey: Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello.fbx using Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a155514632fa5ea29d4b8051aae75961') in 0.385201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/marshmello/marshmello.mat
-  artifactKey: Guid(98488e928b261534a939b02cc7243778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello.mat using Guid(98488e928b261534a939b02cc7243778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb28cb92fe4e9d5b611ff2871522c1ee') in 0.039848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/marshmello/marshmello_ao.psd
-  artifactKey: Guid(bcc8057b6a7cb7944a2cef3ef0513128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello_ao.psd using Guid(bcc8057b6a7cb7944a2cef3ef0513128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9dff87af075f52066699083362ea89') in 0.273531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/marshmello/marshmello1.png
-  artifactKey: Guid(a34bb3608f1bac04ca1819a74a748be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello1.png using Guid(a34bb3608f1bac04ca1819a74a748be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18983933406c4949da3968b66ab62369') in 0.051707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/marshmello/marshmello_normal.psd
-  artifactKey: Guid(69355f46177f5bc48ac45e00152f0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello_normal.psd using Guid(69355f46177f5bc48ac45e00152f0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342908e2f2d48ffb7c5b180c7c4641a1') in 0.082275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.461400 seconds.
-  path: Assets/marshmello/marshmello.fbx
-  artifactKey: Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello.fbx using Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637071c8ad1b1e152701c7496bdeb936') in 0.043085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 330.863502 seconds.
-  path: Assets/marshmello/marshmello1.0.png
-  artifactKey: Guid(4a11826e7931d9f44abadb66620a6473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello1.0.png using Guid(4a11826e7931d9f44abadb66620a6473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018fe3b2e978f17c7c1cd6932ba59160') in 0.037678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.371137 seconds.
-  path: Assets/marshmello/marshmello 1.mat
-  artifactKey: Guid(d24e465b00f443641b9f6c5eebcc055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello 1.mat using Guid(d24e465b00f443641b9f6c5eebcc055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087f91d6361ae2db5ef1e768d16f64f') in 0.041475 seconds 
+Start importing Assets/marshmello/marshmello.fbx using Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03abc775bde6cd9987ed11d1fc7bce9a') in 0.178571 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
