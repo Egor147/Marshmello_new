@@ -89,11 +89,6 @@ public class PlayerController : MonoBehaviour
             Jumping = false;
             k=0;
         }
-
-        /*else if (other.gameObject.CompareTag("Slippery")){
-            Slipper = true;
-            SSpeed = rb.velocity.x;
-        }*/
     }
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);

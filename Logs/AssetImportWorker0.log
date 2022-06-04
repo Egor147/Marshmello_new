@@ -1,71 +1,75 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.34f1 (9a4c9c70452b) revision 10112156'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15297 MB
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15787 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\2020.3.34f1\Editor\Unity.exe
+C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/Marshmello_new
+C:/Users/user/Documents/GitHub/Marshmello_new
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55292
-Successfully changed project path to: D:/Unity/Marshmello_new
-D:/Unity/Marshmello_new
+49951
+Successfully changed project path to: C:/Users/user/Documents/GitHub/Marshmello_new
+C:/Users/user/Documents/GitHub/Marshmello_new
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
-[Subsystems] Discovering subsystems at path D:/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Marshmello_new/Assets
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/Marshmello_new/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     7648 MB
-    Driver:   30.0.15002.1004
+    VRAM:     3962 MB
+    Driver:   30.0.15.1277
 Initialize mono
-Mono path[0] = 'D:/2020.3.34f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = 'C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001566 seconds.
+Register platform support module: C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/user/Desktop/Projects/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005048 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.50 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
+- Completed reload, in  1.133 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1099ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (831ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (315ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (166ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (158ms)
 				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +77,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002671 seconds.
+Registered in 0.005767 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.891 seconds
+- Completed reload, in  1.896 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1892ms)
-		BeginReloadAssembly (328ms)
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1449ms)
-			LoadAssemblies (233ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1517ms)
+			LoadAssemblies (180ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (486ms)
+			SetupTypeCache (490ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (552ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (643ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 4.333200 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.045800 ms MarkObjects: 3.950500 ms  DeleteObjects: 0.110900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 5.998100 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.067300 ms MarkObjects: 5.400800 ms  DeleteObjects: 0.161300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,121 +132,604 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/anim_Jelly.fbx
-  artifactKey: Guid(f86f2cb87af3bb244afadd7f878d1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/anim_Jelly.fbx using Guid(f86f2cb87af3bb244afadd7f878d1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462eb36f028f7e3ae1ec32dca102040b') in 0.246952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 580.778139 seconds.
-  path: Assets/box
-  artifactKey: Guid(d8c8257758cca2c47ad7d4f08eb6357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/box using Guid(d8c8257758cca2c47ad7d4f08eb6357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3379726c621d8371c39be7ba344b0a9') in 0.013286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.329853 seconds.
-  path: Assets/food/eg/eg.fbx
-  artifactKey: Guid(193ce9c70c8a4534cab8e831f5e53b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg/eg.fbx using Guid(193ce9c70c8a4534cab8e831f5e53b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decf46cb29babc85b6e7f54192b50971') in 0.156088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/food/eg/eg1_ao.png
-  artifactKey: Guid(ee9cc52cdb5117a4f9c8710aae987c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg/eg1_ao.png using Guid(ee9cc52cdb5117a4f9c8710aae987c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce0b9c5255e032d2a9ac56fa8c77c46') in 0.065884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/food/eg/eg1.mat
-  artifactKey: Guid(4ce9b3b0e32857f4fb758c1defe11fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg/eg1.mat using Guid(4ce9b3b0e32857f4fb758c1defe11fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1269130965f528a038056bc9462659f2') in 0.030459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/food/eg/eg_normal.psd
-  artifactKey: Guid(c40908834ddcf5e48a44a929da44c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg/eg_normal.psd using Guid(c40908834ddcf5e48a44a929da44c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459ec209b03be118926574d13981aff8') in 0.061752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/food/eg
-  artifactKey: Guid(0922732f833f2544794a8fb83467e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg using Guid(0922732f833f2544794a8fb83467e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e16d605acd91d2e9a4e9290cda999') in 0.004287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/food/eg/eg1_ao.psd
-  artifactKey: Guid(a396cdfebb6e8024f866bb981a509de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/eg/eg1_ao.psd using Guid(a396cdfebb6e8024f866bb981a509de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90727794dd0425e622a537835fb3265') in 0.028793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.997146 seconds.
-  path: Assets/food/fruits
-  artifactKey: Guid(a2868e1eff3fb5f4dbb10c2b93296214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits using Guid(a2868e1eff3fb5f4dbb10c2b93296214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7c8904a8e5800ab7ed2b63bffc1a3') in 0.013923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.125379 seconds.
-  path: Assets/food/fruits/apple
-  artifactKey: Guid(62a3bf7593f6a1246b1b2b8e10159b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/apple using Guid(62a3bf7593f6a1246b1b2b8e10159b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc538d6cda6117205b574ba90b16497c') in 0.016972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.961420 seconds.
-  path: Assets/food/fruits/grape.fbx
-  artifactKey: Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape.fbx using Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f9b4046bd7479036f52ced457cd41') in 0.256048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.191146 seconds.
-  path: Assets/food/fruits/grape.fbx
-  artifactKey: Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape.fbx using Guid(b2f5a5e68dd1fde468c0f6598f1d4362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf263b9897abb40e1ea1501811fed2a') in 0.239708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/food/fruits/grape.png
-  artifactKey: Guid(1519b828bb102ad4f957f1016b442ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape.png using Guid(1519b828bb102ad4f957f1016b442ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e9078a4d4198532345f92cab1ee204') in 0.020556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.181331 seconds.
-  path: Assets/food/fruits/grape_ao.psd
-  artifactKey: Guid(00b546883651b8f489ce2f6fec68d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape_ao.psd using Guid(00b546883651b8f489ce2f6fec68d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd993bde5cd73e1cf2046ad9e05c10') in 0.026267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/food/fruits/grape_normal.psd
-  artifactKey: Guid(47f1e789e51ef90499b2a5275a08b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape_normal.psd using Guid(47f1e789e51ef90499b2a5275a08b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763304e2a6fbc2b1af4ec5deb0b5265') in 0.027582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.803974 seconds.
-  path: Assets/food/fruits/grape.mat
-  artifactKey: Guid(dec37937f61b61c48a5cf419e3cd94e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape.mat using Guid(dec37937f61b61c48a5cf419e3cd94e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09d8a16a0accc12368b717daf2072f9') in 0.032942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.504323 seconds.
-  path: Assets/food/fruits/grape
-  artifactKey: Guid(2faf5b0eb63a0104fb3616111e0b3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape using Guid(2faf5b0eb63a0104fb3616111e0b3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68d760bb9e709391fb7df7cdea0818f') in 0.016482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.954438 seconds.
-  path: Assets/food/fruits/grape/grape.mat
-  artifactKey: Guid(c528b1c7708f5fc489a508e5f0a8663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/fruits/grape/grape.mat using Guid(c528b1c7708f5fc489a508e5f0a8663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738b94b2677c053e41e46c99bd9a2be0') in 0.036380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9191.555200 seconds.
   path: Assets/marshmello/marshmello.fbx
   artifactKey: Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marshmello/marshmello.fbx using Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03abc775bde6cd9987ed11d1fc7bce9a') in 0.178571 seconds 
+Start importing Assets/marshmello/marshmello.fbx using Guid(9f7510117fefbb541a89281d2528d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d47b9fd00039eeb34a386d1aeac203') in 0.277071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/marshmello/new_marshmello.fbx
+  artifactKey: Guid(9ebb90e5f935d1748bf67694a5692d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/marshmello/new_marshmello.fbx using Guid(9ebb90e5f935d1748bf67694a5692d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c79c42d325e30907d5f2bc7b33017d5') in 0.131857 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1684ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1373ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 8.121800 ms (FindLiveObjects: 0.462100 ms CreateObjectMapping: 0.111800 ms MarkObjects: 7.465000 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 581.041252 seconds.
+  path: Assets/komforka/new_fire.fbx
+  artifactKey: Guid(6d963fc4d301eef47a262b069781e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/new_fire.fbx using Guid(6d963fc4d301eef47a262b069781e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb73fd4e4fd9be4e8416215ada09981') in 0.227188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.143803 seconds.
+  path: Assets/komforka/Komfoka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komfoka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68557fec02db1298bfc6041d637b4ea7') in 0.054564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.599270 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34380781c10eccf992fa475efc9c4dfd') in 0.044086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 291.453600 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c97f7db3151708a41da03c479dd65') in 0.031141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.897809 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e1929f409b94d2e1a71dedf81bbd59') in 0.035383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.199293 seconds.
+  path: Assets/Models 1/Fire/Fire3.fbx
+  artifactKey: Guid(c481168f3d381234da34d204b26d1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/Fire3.fbx using Guid(c481168f3d381234da34d204b26d1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817e1ad173c0ca1b9ab7c4a54540d9be') in 0.060039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.650216 seconds.
+  path: Assets/Models 1/Komforfbx.fbx
+  artifactKey: Guid(11518dc0dd5baa048b6e11a591101ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Komforfbx.fbx using Guid(11518dc0dd5baa048b6e11a591101ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0b8a54e0c30ae57a173af413b9d1e1') in 0.080412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Models 1/Komforki.fbx
+  artifactKey: Guid(d5fc03ca5fa056a42ab158c2c63d6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Komforki.fbx using Guid(d5fc03ca5fa056a42ab158c2c63d6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6bec290953536a485072e9d5c2d11b') in 0.072944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.240646 seconds.
+  path: Assets/Models 1/Fire/004_albedo.png
+  artifactKey: Guid(fe267f0202a81bf4486b96670e10f295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/004_albedo.png using Guid(fe267f0202a81bf4486b96670e10f295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceeff31ef7ab7a47e4586a0d6df897e') in 0.050640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/Models 1/Fire/New Material.mat
+  artifactKey: Guid(15cf857ca8f5abd42a476a7229f4549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/New Material.mat using Guid(15cf857ca8f5abd42a476a7229f4549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d26d3cb50855ff63547ae33bc0bfbc') in 0.048834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Models 1/Fire/Atlas_emission.png
+  artifactKey: Guid(b6c38fc32cb4eb6438556a594f961b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/Atlas_emission.png using Guid(b6c38fc32cb4eb6438556a594f961b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a86e2c7c5efc0b2d93a683dd7c972') in 0.030610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Models 1/Fire/New Material 1.mat
+  artifactKey: Guid(fae51ae26c5569f45962c41d606080cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/New Material 1.mat using Guid(fae51ae26c5569f45962c41d606080cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454a201d5f2fa514981bb633e8b468d6') in 0.032939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Models 1/Fire/Atlas_albedo.png
+  artifactKey: Guid(5249091b6a16062459379103009fa943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/Atlas_albedo.png using Guid(5249091b6a16062459379103009fa943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ba4241b05afdbbd1f5cba93d565d3') in 0.027140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Models 1/Fire/004_emission.png
+  artifactKey: Guid(eb41181b47f2b0041a834e6fae014a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models 1/Fire/004_emission.png using Guid(eb41181b47f2b0041a834e6fae014a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301918d26f4101d9d661e136a90510c0') in 0.033826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.749997 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65522d37d1394a0f27a96c8fdfbea95') in 0.027748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.422544 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391116b0c9708fffe01eed37115e2da1') in 0.029676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.681760 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b8f6928590a17ffd093a852e8cc799') in 0.040256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.442042 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11596503ddfe744867cd677bccf87eb0') in 0.037532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.736406 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20fe4734d84b759309812f8b2803709') in 0.034574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.204161 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71541c5583599cbfe93b807f971638da') in 0.035955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.012790 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fd5698f6582086a060105d56c77c59') in 0.029140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.035456 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97676dc00d6ef91e272e47e48c9c119b') in 0.032780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.216752 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3caeb7ddca5df2d685d6f9fa96a1d4') in 0.031633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.494311 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed5a48b4ace7b6107d897b017dadebb') in 0.032470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.833967 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89b5d60344e425f62da5610ed29411e') in 0.032530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.098758 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e89ba49ccbe589d8101a5d1fb40946f') in 0.037957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.359815 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098ba11e0005d3bbfd7fc52d4ac9119e') in 0.037130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.182047 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6214c80ecf751898b30447b4113245b1') in 0.043006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.675831 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad039e27f61201dc7050355b5b31b6b8') in 0.034848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.924270 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5ceab2ffd98ec79b80fcc3e9f32665') in 0.034145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.295502 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acead50bce5238d11f150fc4176cb668') in 0.034890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.799021 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43a8d44b60b25f69243091901d04e7a') in 0.038434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.045757 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58500d26a4262441c11fed280951ad3f') in 0.032391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.700380 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d4f703d6b090b0738fcf449c96b8d8') in 0.040883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.398266 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc7041695afb189fd5682bba313e924') in 0.042258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.187843 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aeaba4e70ad29acc78dea3623abeb4') in 0.038593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.424584 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd730520e5046caba283d70ecc29c1c97') in 0.040321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.770558 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89ed18f0d5c92107acdc0f9ca9017f8') in 0.039272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.939883 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa2973dbf74a091313d394f340e76db') in 0.039657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.937244 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ddb731b7056ea84575d8dcc76a1336') in 0.036481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.919606 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa32a79ed5ad888217ea958e21e63a33') in 0.030406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.896683 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f292c80b9e108463d520f99b85554b2') in 0.036912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.194450 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1053c782a330835736dde3228a364dd9') in 0.047548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.864497 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a17072ced20b571a13d7ca8314fa9') in 0.038237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.923034 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369ca0b2626a109f8ce969ca9336f500') in 0.035976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.036355 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf630b27ee597a77e14b1ad46657b3d') in 0.038677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.694289 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da34270e4e9c53f3022bc5f74cc84a15') in 0.038620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.305331 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0c4fc6d858211839c0410f6ec24c05') in 0.032817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.701074 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ced2029926d933780fffe53888e3f8') in 0.036944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.534804 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0096adef9e16dc891f63cfdaffe556b1') in 0.042543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.569430 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922856ff73d7313a797ae3daf14f224e') in 0.036782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.080320 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a81af63e137352aa215f75430ec843') in 0.034211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.915002 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ab3ddccbc4969b78207989d1a6bfcc') in 0.030341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.509079 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255bb278dece1493035e734c60fb7047') in 0.032286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.591427 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ce880a05799122dc14211a287e34b5') in 0.029039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.910296 seconds.
+  path: Assets/komforka/Komforka.prefab
+  artifactKey: Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/komforka/Komforka.prefab using Guid(262e241c51b6a3644afd8a1ecd528838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484929cd6c4e9ecdc584fe2c9916666a') in 0.030602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 487.716515 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(b1602d8346fe34a438ff17342a06e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(b1602d8346fe34a438ff17342a06e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7008a5409939b1d81c22e695a20eee6f') in 0.016376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.011230 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa61875e3bfeccc088197b61c1a5731') in 0.015314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1695.075096 seconds.
+  path: Assets/Scripts 1/Toasts
+  artifactKey: Guid(85f943d4253313f40b2618e52e7a234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts 1/Toasts using Guid(85f943d4253313f40b2618e52e7a234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c55c2da213bf144607f19155d79e88') in 0.016488 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2166ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1713ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 7.099900 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.073900 ms MarkObjects: 6.452600 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1694ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (607ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 8.125200 ms (FindLiveObjects: 0.639700 ms CreateObjectMapping: 0.092700 ms MarkObjects: 7.334600 ms  DeleteObjects: 0.054100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2120ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1684ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 6.117300 ms (FindLiveObjects: 0.697700 ms CreateObjectMapping: 0.208300 ms MarkObjects: 5.158800 ms  DeleteObjects: 0.048900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
