@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float JumpPower, PushXSpeed, PushZSpeed, RotationAngle, BoostInSlipper, RunJumpPowerRatio;
+    [SerializeField] private float JumpPower, RotationAngle, BoostInSlipper;
     public float Speed;
     [SerializeField] private GameObject DeadMenu;
     private float timer = 0, SSpeed;
     [SerializeField] private Vector3 ScaleWhenSlide;
-    public static bool GameOver, Jumping, Pushing;
-    private bool Running, NormalScale, Slipper;
+    public static bool GameOver, Jumping, Slipper;
+    private bool NormalScale;
     private Vector3 StartScale, Rotate;
     Transform tr;
     Rigidbody rb;
@@ -19,9 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         GameOver = false;
         Slipper = false;
-        Pushing = false;
         Jumping = false;
-        Running = false;
         NormalScale = true;
         tr = gameObject.GetComponent<Transform>();
         rb = gameObject.GetComponent<Rigidbody>();
@@ -35,29 +33,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (!GameOver){
-                if (Input.GetButton("Run")){
-                    Move(Speed*2);
-                    Running = true;
-                }
-                else{
-                    Running = false;
-                    Move(Speed);
-                }
-                if (NormalScale)
-                    if (Input.GetButtonDown("Slide"))
-                        Slide();
-        } else {
+            if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper)
+                Move(Speed);
+            if (Input.GetButtonDown("Slide") && NormalScale)
+                Slide();
+        } else 
             Dead();
-        }
     }
 
     void Update(){
         if (!GameOver)
-            if (!Jumping && !Pushing)
+            if (!Jumping)
                 if (Input.GetButtonDown("Jump")){
-                    if (Running)
-                        Jump(JumpPower+k+RunJumpPowerRatio);
-                    else Jump(JumpPower);
+                    Jump(JumpPower);
                 }
     }
 
@@ -69,7 +57,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
         }else{
             timer += Time.deltaTime;
-            rb.velocity = new Vector3(SSpeed*inputX + BoostInSlipper*timer,rb.velocity.y,inputZ*Speed);
+            rb.velocity = new Vector3(Speed*inputX + BoostInSlipper*timer,rb.velocity.y,inputZ*-Speed);
         }
     
         if (inputX<0)
@@ -102,17 +90,10 @@ public class PlayerController : MonoBehaviour
             k=0;
         }
 
-        else if (other.gameObject.CompareTag("Slippery")){
+        /*else if (other.gameObject.CompareTag("Slippery")){
             Slipper = true;
             SSpeed = rb.velocity.x;
-        }
-    }
-    
-    void OnTriggerExit(Collider other){
-        if (other.gameObject.CompareTag("Slippery")){
-            Slipper = false;
-            timer = 0;
-        }
+        }*/
     }
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
