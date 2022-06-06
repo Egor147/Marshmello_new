@@ -45,14 +45,11 @@ public class Comforka : MonoBehaviour
         rend.material.color = Color.Lerp (rend.material.color, endColor,  t);
     }
 
-    /*void OnTriggerStay(Collider other){
+    void OnTriggerStay(Collider other){
 
-        if (other.gameObject.CompareTag("Player") && StartColor == Color.red && t == 0){
-            DeadMenu.SetActive(true);
-            DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
+        if (other.gameObject.CompareTag("Player") && StartColor == Color.red && t == 0)
             PlayerController.GameOver = true;
-        }
-    }*/
+    }
 
     IEnumerator Waiting(float waitTime)
     {

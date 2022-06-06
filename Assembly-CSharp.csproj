@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts 1\Slipper.cs" />
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
+     <Compile Include="Assets\Scripts 1\Fire\KomforkiEnd.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

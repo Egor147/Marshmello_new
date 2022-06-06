@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class FireManager : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> Fire = new List<GameObject>();
+    [SerializeField] private GameObject[] Fire;
     [SerializeField]private List<int> index = new List<int>();
-    private bool Start = false, NewIteration = true;
+    public static bool Should_start = false;
+    private bool NewIteration = true;
     [SerializeField]private int NumberOfComforks;
     [SerializeField]private float TimeOfFire;
 
+    void Start() => Fire = GameObject.FindGameObjectsWithTag("Komforka");
+
     void Update(){
-        if (Start && NewIteration){
+        if (Should_start && NewIteration){
             NewIteration = false;
             for (int i = 0; i < NumberOfComforks; i++){
-                int f = (int)Random.Range(1,Fire.Count+1);
+                int f = (int)Random.Range(1,Fire.Length+1);
                 Debug.Log(f);
                 if (!Fire[f-1].GetComponent<Comforka>().Go){
                     Fire[f-1].GetComponent<Comforka>().Go = true;
@@ -29,14 +32,9 @@ public class FireManager : MonoBehaviour
 
     void OnTriggerEnter (Collider other){
         if (other.gameObject.CompareTag("Player")){
-            Start = true;
+            Should_start = true;
         }
     }
-
-    /*IEnumerator WatingForFire(float WaitingTime){
-        yield return new WaitForSeconds(WaitingTime);
-        NewIteration = true;
-    }*/
 
     IEnumerator WaitingForStopFire(float WaitingTime){
         yield return new WaitForSeconds (WaitingTime);

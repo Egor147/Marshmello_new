@@ -8,6 +8,7 @@ TagManager:
   - Jelly
   - Checkpoint
   - Slippery
+  - Komforka
   layers:
   - Default
   - TransparentFX
