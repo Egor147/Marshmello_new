@@ -18,7 +18,7 @@ public class FireManager : MonoBehaviour
             NewIteration = false;
             for (int i = 0; i < NumberOfComforks; i++){
                 int f = (int)Random.Range(1,Fire.Length+1);
-                Debug.Log(f);
+                
                 if (!Fire[f-1].GetComponent<Comforka>().Go){
                     Fire[f-1].GetComponent<Comforka>().Go = true;
                     index.Add(f-1);

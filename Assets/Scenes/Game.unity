@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -492,6 +496,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 386
@@ -615,6 +623,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 332
@@ -1031,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 373
@@ -1196,6 +1212,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 363
@@ -1383,6 +1403,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 387
@@ -1474,6 +1498,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 355
@@ -1547,6 +1575,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 339
@@ -1620,6 +1652,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 384
@@ -1693,6 +1729,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -1885,6 +1925,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 296
@@ -2135,6 +2179,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 334
@@ -2208,6 +2256,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 272
@@ -2385,6 +2437,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 390
@@ -2458,6 +2514,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 316
@@ -2531,6 +2591,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 268
@@ -2609,6 +2673,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 350
@@ -2751,6 +2819,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 318
@@ -2824,6 +2896,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 393
@@ -3225,6 +3301,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 324
@@ -3298,6 +3378,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 389
@@ -3371,6 +3455,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 395
@@ -3787,67 +3875,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1550514412580984892, guid: 56f7aa322f3eff8419589574ca8a6473, type: 3}
---- !u!1001 &228898615
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -866.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.13
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_Name
-      value: new_marshmello
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
 --- !u!1001 &230251060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,6 +3890,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 418
@@ -3936,6 +3967,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 431
@@ -4171,58 +4206,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5bc6bad844339642a78bf8bd0aaa249, type: 3}
---- !u!1 &236221900 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ebb90e5f935d1748bf67694a5692d00, type: 3}
-  m_PrefabInstance: {fileID: 228898615}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &236221901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236221900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aea47573e9fdd3544aa6ef76fe80d56f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  JumpPower: 12
-  RotationAngle: 45
-  BoostInSlipper: -8
-  Speed: -6
-  DeadMenu: {fileID: 138831713}
-  ScaleWhenSlide: {x: 1.5, y: 0.5, z: 1}
---- !u!54 &236221903
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236221900}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!65 &236221904
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236221900}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0711603, y: 2.0499897, z: 1.6604004}
-  m_Center: {x: 0.03558013, y: 1.0190551, z: -0.07254028}
 --- !u!1001 &244340779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4307,6 +4290,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 260
@@ -4456,6 +4443,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 288
@@ -4529,6 +4520,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 290
@@ -4602,6 +4597,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 280
@@ -4848,6 +4847,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 354
@@ -4952,6 +4955,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 282
@@ -5221,6 +5228,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 427
@@ -5294,6 +5305,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 319
@@ -5367,6 +5382,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 394
@@ -5440,6 +5459,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 345
@@ -5630,6 +5653,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 370
@@ -5703,6 +5730,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 245
@@ -6240,6 +6271,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 415
@@ -6313,6 +6348,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 346
@@ -6386,6 +6425,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 349
@@ -6520,6 +6563,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 361
@@ -6593,6 +6640,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 306
@@ -7156,6 +7207,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 359
@@ -7305,6 +7360,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 357
@@ -7378,6 +7437,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 313
@@ -7581,6 +7644,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 266
@@ -7654,6 +7721,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 340
@@ -7850,6 +7921,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 327
@@ -7954,6 +8029,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 385
@@ -8027,6 +8106,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 276
@@ -8539,7 +8622,7 @@ PrefabInstance:
     - target: {fileID: 5857802924515387640, guid: 021c44f03682d3b41b50a98cbe6c86f7, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 236221900}
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 5857802924515387640, guid: 021c44f03682d3b41b50a98cbe6c86f7, type: 3}
       propertyPath: distanceFromPlayer.x
       value: 4
@@ -8721,6 +8804,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -8825,6 +8912,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 281
@@ -8898,6 +8989,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 392
@@ -8990,6 +9085,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -9542,6 +9641,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 267
@@ -9719,6 +9822,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 284
@@ -9823,6 +9930,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 388
@@ -10080,6 +10191,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -10153,6 +10268,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 331
@@ -10299,6 +10418,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 287
@@ -10441,6 +10564,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 311
@@ -10514,6 +10641,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 263
@@ -10841,6 +10972,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 291
@@ -11914,6 +12049,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 396
@@ -11987,6 +12126,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 400
@@ -12538,6 +12681,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 358
@@ -12611,6 +12758,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 419
@@ -12684,6 +12835,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 399
@@ -12757,6 +12912,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 433
@@ -12830,6 +12989,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 408
@@ -12934,6 +13097,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -13007,6 +13174,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 293
@@ -13303,6 +13474,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 312
@@ -13376,6 +13551,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 414
@@ -13449,6 +13628,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 401
@@ -13591,6 +13774,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 353
@@ -14096,6 +14283,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 362
@@ -14169,6 +14360,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 297
@@ -14844,6 +15039,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 398
@@ -15025,6 +15224,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 253
@@ -15190,6 +15393,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 368
@@ -15551,6 +15758,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 283
@@ -15624,6 +15835,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 344
@@ -15697,6 +15912,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 295
@@ -15770,6 +15989,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 308
@@ -15843,6 +16066,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 343
@@ -16001,6 +16228,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 309
@@ -16254,6 +16485,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 328
@@ -16358,6 +16593,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 364
@@ -16750,6 +16989,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 303
@@ -16823,6 +17066,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 278
@@ -16953,6 +17200,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 372
@@ -17026,6 +17277,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 434
@@ -17214,6 +17469,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 428
@@ -17287,6 +17546,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 375
@@ -17598,6 +17861,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 302
@@ -18096,6 +18363,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -18169,6 +18440,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 323
@@ -18416,6 +18691,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 305
@@ -18677,6 +18956,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 294
@@ -18750,6 +19033,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 371
@@ -18823,6 +19110,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 348
@@ -18988,6 +19279,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 298
@@ -19061,6 +19356,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 360
@@ -19348,6 +19647,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 244
@@ -19421,6 +19724,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 251
@@ -19616,6 +19923,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 377
@@ -20063,6 +20374,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 435
@@ -20136,6 +20451,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 429
@@ -20382,6 +20701,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 378
@@ -20889,6 +21212,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 351
@@ -21038,6 +21365,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 342
@@ -21111,6 +21442,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 347
@@ -21272,6 +21607,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 238
@@ -21345,6 +21684,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 330
@@ -21614,6 +21957,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 250
@@ -21687,6 +22034,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 365
@@ -21760,6 +22111,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 338
@@ -21864,6 +22219,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 341
@@ -22067,6 +22426,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 424
@@ -22197,6 +22560,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 417
@@ -22336,6 +22703,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 376
@@ -22634,6 +23005,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 333
@@ -23291,6 +23666,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 405
@@ -23364,6 +23743,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 380
@@ -23510,6 +23893,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 432
@@ -23713,6 +24100,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 265
@@ -23786,6 +24177,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 274
@@ -23859,6 +24254,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 397
@@ -23932,6 +24331,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 252
@@ -24311,6 +24714,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 300
@@ -24384,6 +24791,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 322
@@ -24457,6 +24868,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 279
@@ -24530,6 +24945,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 270
@@ -24603,6 +25022,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 381
@@ -24733,6 +25156,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 352
@@ -24914,6 +25341,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 406
@@ -25170,6 +25601,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 259
@@ -25435,6 +25870,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 315
@@ -25654,6 +26093,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 335
@@ -25796,6 +26239,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 329
@@ -26084,6 +26531,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 271
@@ -26398,6 +26849,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 240
@@ -26471,6 +26926,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 301
@@ -26927,6 +27386,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 367
@@ -27069,6 +27532,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 422
@@ -27142,6 +27609,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 391
@@ -27360,6 +27831,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 286
@@ -27433,6 +27908,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 421
@@ -27563,6 +28042,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 325
@@ -27782,6 +28265,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 314
@@ -27855,6 +28342,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 436
@@ -28135,6 +28626,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 413
@@ -28239,6 +28734,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 407
@@ -28385,6 +28884,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 269
@@ -28767,6 +29270,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 337
@@ -29009,6 +29516,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 423
@@ -29138,6 +29649,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 261
@@ -29607,6 +30122,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 257
@@ -30038,6 +30557,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 356
@@ -30345,6 +30868,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 304
@@ -30418,6 +30945,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 292
@@ -30548,6 +31079,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 402
@@ -30886,6 +31421,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 382
@@ -30989,8 +31528,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.7206969, z: 3.259692}
-  m_Center: {x: 0, y: 0.16767281, z: -0.25215667}
+  m_Size: {x: 0.57664424, y: 1.7206969, z: 3.259692}
+  m_Center: {x: -0.2116779, y: 0.16767281, z: -0.25215667}
 --- !u!4 &1697540222
 Transform:
   m_ObjectHideFlags: 0
@@ -30999,7 +31538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697540219}
   m_LocalRotation: {x: -0.00000009735359, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -886.84, y: 6.93, z: 1.98}
+  m_LocalPosition: {x: -893.3, y: 6.93, z: 1.98}
   m_LocalScale: {x: 10.050655, y: 10.050655, z: 10.050655}
   m_Children: []
   m_Father: {fileID: 0}
@@ -31469,6 +32008,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 336
@@ -31542,6 +32085,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 320
@@ -31966,6 +32513,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 307
@@ -32131,6 +32682,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 277
@@ -32204,6 +32759,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 410
@@ -32630,6 +33189,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 430
@@ -32760,6 +33323,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -32921,6 +33488,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 411
@@ -32994,6 +33565,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 379
@@ -33374,6 +33949,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 299
@@ -33665,6 +34244,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 369
@@ -34003,6 +34586,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 412
@@ -34164,6 +34751,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 383
@@ -34470,6 +35061,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 317
@@ -34794,6 +35389,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 374
@@ -35247,6 +35846,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 426
@@ -35320,6 +35923,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 416
@@ -35512,6 +36119,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -35642,6 +36253,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 310
@@ -35715,6 +36330,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 275
@@ -35788,6 +36407,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 425
@@ -36031,6 +36654,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 273
@@ -36135,6 +36762,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 321
@@ -36281,6 +36912,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 420
@@ -36450,6 +37085,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 409
@@ -36596,6 +37235,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 404
@@ -36669,6 +37312,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 437
@@ -36760,6 +37407,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 255
@@ -36902,6 +37553,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 289
@@ -36975,6 +37630,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 262
@@ -37048,6 +37707,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 326
@@ -37260,6 +37923,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 258
@@ -37971,6 +38638,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 285
@@ -38044,6 +38715,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 239
@@ -38117,6 +38792,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 403
@@ -38190,6 +38869,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 366
@@ -38263,6 +38946,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Komforka
       objectReference: {fileID: 0}
+    - target: {fileID: 3879277533169072301, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 919132149249575526}
     - target: {fileID: 4495341803993857215, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
       propertyPath: m_RootOrder
       value: 264
@@ -38321,3 +39008,69 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 262e241c51b6a3644afd8a1ecd528838, type: 3}
+--- !u!1 &919132149249575526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5127825526410313945, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+  m_PrefabInstance: {fileID: 5469863589306665663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5469863589306665663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5127825526410313945, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_Name
+      value: new_marshmello
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469863589473156978, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: DeadMenu
+      value: 
+      objectReference: {fileID: 138831713}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -866.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504070036247960163, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}

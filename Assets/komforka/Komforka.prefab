@@ -100,6 +100,8 @@ MonoBehaviour:
   Step: 0.01
   Go: 0
   Fire: {fileID: 7182153788505790627}
+  player: {fileID: 5127825526410313945, guid: 1a904e8c1fd81e84abe117961d9c0872, type: 3}
+  distance: 100
 --- !u!64 &6329052345007656358
 MeshCollider:
   m_ObjectHideFlags: 0
