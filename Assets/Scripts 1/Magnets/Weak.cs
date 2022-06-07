@@ -6,7 +6,7 @@ public class Weak : MonoBehaviour
 {
     private Rigidbody rb;
     private Transform tr;
-     [SerializeField] private float timeToFall, SpeedFall;
+    [SerializeField] private float timeToFall, SpeedFall;
      private bool PlayerOnIt = false;
 
     void Start(){
@@ -30,5 +30,6 @@ public class Weak : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         PlayerOnIt = false;
         rb.isKinematic = false;
+        rb.useGravity = true;
     }
 }
