@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     Transform tr;
     Rigidbody rb;
     public static float k = 0f;
+    [SerializeField] private Animator Anim;
+    private int _state;
     void Start()
     {
         GameOver = false;
@@ -33,10 +35,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (!GameOver){
-            if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper)
+            if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper){
+                if (_state != 2)
+                    if (!Slipper)
+                        _state = 1;
+                    else 
+                        _state = 3;
                 Move(Speed);
+            } else
+                if (_state != 2) 
+                    _state = 0;
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
+            Anim.SetInteger("state",_state);
         } else 
             Dead();
     }
@@ -46,6 +57,7 @@ public class PlayerController : MonoBehaviour
             if (!Jumping)
                 if (Input.GetButtonDown("Jump")){
                     Jump(JumpPower);
+                    _state = 2;
                 }
     }
 
@@ -88,6 +100,7 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.CompareTag("Ground")){
             Jumping = false;
             k=0;
+            _state = 0;
         }
     }
     void Rotation (float Rotation){
