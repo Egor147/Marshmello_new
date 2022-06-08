@@ -11,6 +11,8 @@ public class Comforka : MonoBehaviour
     private bool ready = true;
     public bool  Go;
     [SerializeField] private GameObject Fire;
+    [SerializeField] private GameObject player;
+    [SerializeField] private float distance;
 
     void Start(){
         rend = gameObject.GetComponent<Renderer>();
@@ -25,15 +27,13 @@ public class Comforka : MonoBehaviour
             if (t >= 1 || rend.material.color == EndColor){
                 ready = false;
                 t=0;
-                if (EndColor == Color.red){
+                if (EndColor == Color.red && Vector3.Distance(transform.position, player.transform.position) <= distance)
                     Fire.SetActive(true);
-                }
                 Color temp = StartColor;
                 StartColor = EndColor;
                 EndColor = temp;
                 StartCoroutine(Waiting(3));
             }
-
             if (ready){
                 Change_color(rend, StartColor, EndColor);
             }
@@ -45,14 +45,11 @@ public class Comforka : MonoBehaviour
         rend.material.color = Color.Lerp (rend.material.color, endColor,  t);
     }
 
-    /*void OnTriggerStay(Collider other){
+    void OnTriggerStay(Collider other){
 
-        if (other.gameObject.CompareTag("Player") && StartColor == Color.red && t == 0){
-            DeadMenu.SetActive(true);
-            DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
+        if (other.gameObject.CompareTag("Player") && StartColor == Color.red && t == 0)
             PlayerController.GameOver = true;
-        }
-    }*/
+    }
 
     IEnumerator Waiting(float waitTime)
     {

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1228993714765196727}
   - component: {fileID: 3957173187536787837}
   - component: {fileID: 4160193894109210712}
-  - component: {fileID: 1835983264839392117}
   - component: {fileID: 3197469953060896256}
+  - component: {fileID: 283087378429433634}
   m_Layer: 0
   m_Name: Jelly_little
   m_TagString: Jelly
@@ -96,20 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0db06bae686e94aa2606580c0ac0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ratio: 0
---- !u!65 &1835983264839392117
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3308536575741868200}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.90904826, y: 0.29863498, z: 1.0721802}
-  m_Center: {x: 0.014286504, y: 1.136765, z: 0.011458974}
+  Ratio: 15
 --- !u!64 &3197469953060896256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -124,3 +111,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9111446733670104075, guid: f18573df07f262f41b1327aacbc7a33e, type: 3}
+--- !u!65 &283087378429433634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308536575741868200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.90552753, y: 0.30940947, z: 0.8615492}
+  m_Center: {x: 0.010960645, y: 1.075147, z: 0.043300245}

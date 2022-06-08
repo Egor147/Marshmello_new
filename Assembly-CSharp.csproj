@@ -45,20 +45,25 @@
      <Compile Include="Assets\Scripts 1\MenuButs\Revival.cs" />
      <Compile Include="Assets\Scripts 1\Toasts\Down.cs" />
      <Compile Include="Assets\Scripts 1\Dead.cs" />
-     <Compile Include="Assets\Scripts 1\CameraMovement.cs" />
-     <Compile Include="Assets\Scripts 1\arm.cs" />
+     <Compile Include="Assets\Scripts 1\Camera\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts 1\For Arm\arm.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
      <Compile Include="Assets\Scripts 1\Jelly.cs" />
+     <Compile Include="Assets\Scripts 1\Fire\KomforkiEnd.cs" />
      <Compile Include="Assets\Scripts 1\Player\Checkpoint.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Slow.cs" />
      <Compile Include="Assets\Scripts 1\Fire\FireManager.cs" />
      <Compile Include="Assets\Scripts 1\Toasts\Toast.cs" />
      <Compile Include="Assets\Scripts 1\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts 1\Camera\BeforeBoat.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\ExitMenu.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Weak.cs" />
      <Compile Include="Assets\Scripts 1\Slipper.cs" />
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
+     <Compile Include="Assets\Scripts 1\Camera\New_jump.cs" />
+     <Compile Include="Assets\Scripts 1\For Arm\Afm_off.cs" />
+     <Compile Include="Assets\Scripts 1\For Arm\Arm_on.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
