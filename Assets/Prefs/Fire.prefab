@@ -170,7 +170,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.25
+      scalar: 0.31796122
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -662,10 +662,10 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 20
+    angle: 12.045012
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0
     donutRadius: 0.2
     m_Position: {x: -0.000021955095, y: -0.00007122632, z: -0.14967981}
     m_Rotation: {x: 0, y: 0, z: 90}
@@ -748,7 +748,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.047143705
+      value: 0.04657057
       mode: 0
       spread: 0
       speed:
@@ -976,8 +976,8 @@ ParticleSystem:
       time: 0.2
       countCurve:
         serializedVersion: 2
-        minMaxState: 3
-        scalar: 10
+        minMaxState: 0
+        scalar: 1
         minScalar: 2
         maxCurve:
           serializedVersion: 2
@@ -4891,4 +4891,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88253b3b8b1c004cb6040459cea592e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeadMenu: {fileID: 4867184949921329893, guid: eae23a2c8734d4c4b99dacd82cb823a9, type: 3}
