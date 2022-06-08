@@ -36,7 +36,7 @@ public class arm : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
             rb.velocity = new Vector3(0,0,0);
-            target = new Vector3(other.gameObject.transform.position.x + 7.489729f,  other.gameObject.transform.position.y + 1,  other.gameObject.transform.position.z);
+            target = new Vector3(other.gameObject.transform.position.x + 15f,  other.gameObject.transform.position.y + 1,  other.gameObject.transform.position.z-6.12f);
             caught = true;
         }
     }

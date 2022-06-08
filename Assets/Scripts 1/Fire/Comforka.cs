@@ -23,11 +23,14 @@ public class Comforka : MonoBehaviour
     }
 
     void Update(){
+        if (Go && Vector3.Distance(transform.position, player.transform.position) > distance){
+            Go = false;
+        }
         if (Go || (!Go && rend.material.color != Color.black)){
             if (t >= 1 || rend.material.color == EndColor){
                 ready = false;
                 t=0;
-                if (EndColor == Color.red && Vector3.Distance(transform.position, player.transform.position) <= distance)
+                if (EndColor == Color.red)
                     Fire.SetActive(true);
                 Color temp = StartColor;
                 StartColor = EndColor;

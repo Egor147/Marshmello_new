@@ -9,7 +9,7 @@ public class Pause : MonoBehaviour
     //private bool ActivatePause = false;
     void Update()
     {
-        if (Input.GetButtonDown("Pause")){
+        if (Input.GetButtonDown("Pause") && !PlayerController.GameOver){
             ZeroTime();
         }
     }

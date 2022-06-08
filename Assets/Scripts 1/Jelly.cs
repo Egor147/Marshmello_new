@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jelly : MonoBehaviour
 {
-   public float Ratio;
+   [SerializeField] float Ratio;
 
    void OnTriggerEnter(Collider other){
       if (other.gameObject.CompareTag("Player")){

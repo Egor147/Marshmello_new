@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float Jump_height, RotationAngle, BoostInSlipper;
+    [SerializeField] private float Jump_height, RotationAngle, SlipperSpeed;
     public float Speed;
     [SerializeField] private GameObject DeadMenu;
-    private float timer = 0, SSpeed;
+    private float SSpeed;
     [SerializeField] private Vector3 ScaleWhenSlide;
     public static bool GameOver, Jumping, Slipper;
     private bool NormalScale;
@@ -79,8 +79,7 @@ public class PlayerController : MonoBehaviour
             inputX = Input.GetAxis("Vertical");
             rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
         }else{
-            timer += Time.deltaTime;
-            rb.velocity = new Vector3(Speed*inputX + BoostInSlipper*timer,rb.velocity.y,inputZ*-Speed);
+            rb.velocity = new Vector3(SlipperSpeed,rb.velocity.y,inputZ*-Speed);
         }
     
         if (inputX<0)
@@ -116,6 +115,10 @@ public class PlayerController : MonoBehaviour
         }
            // _state = 5;
         //}
+    }
+
+    void OnTriggerExit(Collider other){
+        if (!Jumping) Jumping = true;
     }
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);

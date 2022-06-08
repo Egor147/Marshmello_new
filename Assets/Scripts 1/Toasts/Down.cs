@@ -24,6 +24,7 @@ public class Down : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Ground")){
             Destroy(gameObject.GetComponent<Dead>());
+            rb.mass = 100;
             BC.isTrigger = false;
         }
     }
