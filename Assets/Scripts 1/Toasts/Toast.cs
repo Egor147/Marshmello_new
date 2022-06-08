@@ -6,7 +6,7 @@ public class Toast : MonoBehaviour
 {
 
     Rigidbody rb;
-    [SerializeField] private GameObject MyDown;
+    //[SerializeField] private GameObject MyDown;
     public bool Go = false;
     
     void Start()
@@ -22,8 +22,8 @@ public class Toast : MonoBehaviour
     }
 
     IEnumerator Waiting(){
-        yield return new WaitForSeconds(1);
-        MyDown.GetComponent<Down>().Go = true;
+        yield return new WaitForSeconds(10);
+        //MyDown.GetComponent<Down>().Go = true;
         Destroy(gameObject);
     }
 }

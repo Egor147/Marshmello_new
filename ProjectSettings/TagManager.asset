@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - Slippery
   - Komforka
+  - tost
   layers:
   - Default
   - TransparentFX

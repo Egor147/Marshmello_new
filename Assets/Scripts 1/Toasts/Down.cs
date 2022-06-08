@@ -25,6 +25,7 @@ public class Down : MonoBehaviour
         if (other.gameObject.CompareTag("Ground")){
             Destroy(gameObject.GetComponent<Dead>());
             BC.isTrigger = false;
+            rb.mass = 1000;
         }
     }
 
