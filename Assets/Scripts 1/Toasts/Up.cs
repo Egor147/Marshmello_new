@@ -29,6 +29,6 @@ public class Up : MonoBehaviour
             Rigidbody rb = Toasts[i].GetComponent<Rigidbody>();
             rb.AddForce(new Vector3(0,JumpPower,0), ForceMode.Impulse);
         }
-        Toast.Go = true;
+        //Toast.Go = true;
     }
 }

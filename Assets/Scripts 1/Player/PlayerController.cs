@@ -41,11 +41,13 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper){
                 if (!Jumping)
                     if (!Slipper)
-                        _state = 1;
-                    else 
-                        _state = 3;
+                        if (_state !=2 && _state != 4)
+                            _state = 1;
+                    if (Jumping) 
+                        if (_state !=2 && _state != 4)
+                            _state = 3;
                 Move(Speed);
-            } else if (!Jumping) 
+            } else if (!Jumping && _state !=2 && _state != 4) 
                     _state = 0;
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
@@ -58,17 +60,12 @@ public class PlayerController : MonoBehaviour
         if (!GameOver){
             if (!Jumping)
                 if (Input.GetButtonDown("Jump")){
-                    Jump(JumpPower);
                     _state = 2;
+                    Jump(JumpPower);
                 }
-                else{
-                    if (_state == 4)
-                        _state = 5;
-                }
-            else{
-                _state = 4;
-            }
+
             Anim.SetInteger("state",_state);
+            StartCoroutine(Change_animation(0.5f, 4));
         }
     }
 
@@ -100,16 +97,21 @@ public class PlayerController : MonoBehaviour
         NormalScale = true;
         tr.localScale = StartScale;
     }
+    IEnumerator Change_animation(float waitTime, int x)
+    {
+        yield return new WaitForSeconds(waitTime);
+        _state = x;
+    }
 
     void Jump( float HeightJump){
         Jumping = true;
-        _state = 4;
         rb.velocity = new Vector3(rb.velocity.x, HeightJump, rb.velocity.z);
     }
 
     void OnTriggerEnter(Collider other){
         //if(other.gameObject.CompareTag("Ground")){
         if (Jumping && !other.gameObject.CompareTag("Jelly")){
+            _state = 0;
             Jumping = false;
             k=0;
         }

@@ -27,7 +27,7 @@ public class Comforka : MonoBehaviour
             Go = false;
         }
         if (Go || (!Go && rend.material.color != Color.black)){
-            if (t >= 1 || rend.material.color == EndColor){
+            if (t >= 0.8f || rend.material.color == EndColor){
                 ready = false;
                 t=0;
                 if (EndColor == Color.red)
@@ -50,7 +50,7 @@ public class Comforka : MonoBehaviour
 
     void OnTriggerStay(Collider other){
 
-        if (other.gameObject.CompareTag("Player") && StartColor == Color.red && t == 0)
+        if (other.gameObject.CompareTag("Player") && (StartColor == Color.red && t <= 0.1f) || (EndColor == Color.red && t >= 0.6f))
             PlayerController.GameOver = true;
     }
 
