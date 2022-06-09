@@ -117,9 +117,6 @@ public class PlayerController : MonoBehaviour
         //}
     }
 
-    void OnTriggerExit(Collider other){
-        if (!Jumping) Jumping = true;
-    }
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
     }
