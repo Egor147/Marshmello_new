@@ -6,8 +6,8 @@ public class For_Start : MonoBehaviour
 {
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
-            Debug.Log("Go");
             WaterDrop.Go = true;
+            //other.gameObject.GetComponent<BoxCollider>().isTrigger = false;
         }
     }
 }

@@ -6,7 +6,7 @@ public class Tutorial : MonoBehaviour
 {
     [SerializeField] private GameObject TutorialCanvas;
 
-    void Start() => PlayerController.GameOver = true;
+    void Start() => Time.timeScale = 0;
 
 
     private void Update()
@@ -14,7 +14,7 @@ public class Tutorial : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)){
             TutorialCanvas.GetComponent<Transform>().Find("TutorialImage").gameObject.SetActive(false);
             TutorialCanvas.SetActive(false);
-            PlayerController.GameOver = false;
+            Time.timeScale = 1f;
             Destroy(this);
         } 
     }

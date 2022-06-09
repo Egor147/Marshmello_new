@@ -19,14 +19,14 @@ public class Pause : MonoBehaviour
             Canv.SetActive(true);
             if (!Canv.GetComponent<Transform>().Find("Pause").gameObject.activeSelf){
                 Canv.GetComponent<Transform>().Find("Pause").gameObject.SetActive(true);
-                PlayerController.GameOver = true;
+                //PlayerController.GameOver = true;
                 Time.timeScale = 0;
             }
         } else{
             Canv.GetComponent<Transform>().Find("Pause").gameObject.SetActive(false);
             Canv.SetActive(false);
             Time.timeScale = 1f;
-            PlayerController.GameOver = false;
+            //PlayerController.GameOver = false;
         }
     }
 }

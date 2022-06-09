@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
                     if (!Slipper)
                         if (_state !=2 && _state != 4)
                             _state = 1;
-                    if (Jumping) 
+                    if (Jumping)
                         if (_state !=2 && _state != 4)
                             _state = 3;
                 Move(Speed);
@@ -52,8 +52,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
             //Anim.SetInteger("state",_state);
-        } else 
-            Dead();
+        } else Dead();
     }
 
     void Update(){

@@ -50,7 +50,7 @@ public class Comforka : MonoBehaviour
 
     void OnTriggerStay(Collider other){
 
-        if (other.gameObject.CompareTag("Player") && (StartColor == Color.red && t <= 0.1f) || (EndColor == Color.red && t >= 0.6f))
+        if (other.gameObject.CompareTag("Player") && ((StartColor == Color.red && t <= 0.1f) || (EndColor == Color.red && t >= 0.6f)))
             PlayerController.GameOver = true;
     }
 
