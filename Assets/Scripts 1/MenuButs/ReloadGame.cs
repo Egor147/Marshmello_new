@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ReloadGame : MonoBehaviour
 {
-    public void Click(){
+    public void OnClick(){
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("Game");
     }

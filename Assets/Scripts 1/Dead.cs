@@ -9,9 +9,9 @@ public class Dead : MonoBehaviour
 
     void OnTriggerStay(Collider other){
         if (other.gameObject.CompareTag("Player") && !already){
+            Debug.Log("LOH");
             PlayerController.GameOver = true;
             already = true;
         }
-        
     }
 }

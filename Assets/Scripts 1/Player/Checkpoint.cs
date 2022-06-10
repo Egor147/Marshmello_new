@@ -9,7 +9,7 @@ public class Checkpoint : MonoBehaviour
     void Start() => CheckpointCoord = transform.position;
 
     void OnTriggerEnter(Collider other){
-        if(other.gameObject.CompareTag("Checkpoint")){
+        if(other.gameObject.CompareTag("Checkpoint") && !PlayerController.GameOver){
             PlayerPrefs.SetFloat("XCoord",gameObject.transform.position.x);
             PlayerPrefs.SetFloat("YCoord",gameObject.transform.position.y);
             PlayerPrefs.SetFloat("ZCoord",gameObject.transform.position.z);

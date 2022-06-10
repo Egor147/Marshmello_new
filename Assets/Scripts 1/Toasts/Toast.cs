@@ -6,24 +6,25 @@ public class Toast : MonoBehaviour
 {
 
     Rigidbody rb;
-    [SerializeField] private GameObject MyDown;
-    public bool Go = false;
+    [SerializeField]private List<GameObject> MyDown = new List<GameObject>();
+    public static bool Go = false;
+    [SerializeField] private float Wait_time;
     
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
-    void Update()
-    {
-        if (Go){
-            StartCoroutine(Waiting());
+    void OnTriggerEnter(Collider other){
+        if (other.gameObject.CompareTag("Player")){
+            StartCoroutine(GoDown());
         }
     }
 
-    IEnumerator Waiting(){
-        yield return new WaitForSeconds(1);
-        MyDown.GetComponent<Down>().Go = true;
-        Destroy(gameObject);
+    IEnumerator GoDown(){
+        for (int i=0; i<MyDown.Count;i++){
+            yield return new WaitForSeconds(Wait_time);
+            MyDown[i].GetComponent<Down>().Go = true;
+        }
     }
 }
