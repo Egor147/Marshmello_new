@@ -5,7 +5,7 @@ using UnityEngine;
 public class arm : MonoBehaviour
 {
     Rigidbody rb;
-    [SerializeField] private float Speed;
+    public float Speed;
     [SerializeField] private bool caught = false;
     private Vector3 target;
     

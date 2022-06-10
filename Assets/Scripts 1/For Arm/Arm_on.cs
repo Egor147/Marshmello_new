@@ -6,11 +6,14 @@ public class Arm_on : MonoBehaviour
 {
     [SerializeField] private GameObject arm;
     [SerializeField] private Vector3 Offset;
+    [SerializeField] private float SetSpeed;
 
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
             arm.transform.position = new Vector3(other.gameObject.transform.position.x+Offset.x,other.gameObject.transform.position.y+Offset.y,1.4358f);
+            arm.GetComponent<arm>().Speed = SetSpeed;
             arm.SetActive(true);
+
         }
     }
 }

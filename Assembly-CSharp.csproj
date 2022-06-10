@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts 1\Tutorial.cs" />
+     <Compile Include="Assets\Scripts 1\Komix\GoToTutor.cs" />
      <Compile Include="Assets\Scripts 1\Boat.cs" />
      <Compile Include="Assets\Scripts 1\Water\WaterDrop.cs" />
      <Compile Include="Assets\Scripts 1\SwimSpeed.cs" />
@@ -51,11 +52,14 @@
      <Compile Include="Assets\Scripts 1\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts 1\For Arm\arm.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\NewGameInMenu.cs" />
+     <Compile Include="Assets\Scripts 1\Komix\StopScrolling.cs" />
      <Compile Include="Assets\Scripts 1\Jelly.cs" />
      <Compile Include="Assets\Scripts 1\Fire\KomforkiEnd.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\ReloadFromTutor.cs" />
      <Compile Include="Assets\Scripts 1\For Arm\Arm_on.cs" />
      <Compile Include="Assets\Scripts 1\Player\Checkpoint.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Slow.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
      <Compile Include="Assets\Scripts 1\Fire\FireManager.cs" />
      <Compile Include="Assets\Scripts 1\Toasts\Toast.cs" />
      <Compile Include="Assets\Scripts 1\Player\PlayerController.cs" />
@@ -67,10 +71,6 @@
      <Compile Include="Assets\Scripts 1\Slipper.cs" />
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
-     <Compile Include="Assets\Scripts 1\Komix\StopScrolling.cs" />
-     <Compile Include="Assets\Scripts 1\Komix\GoToTutor.cs" />
-     <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
-     <Compile Include="Assets\Scripts 1\MenuButs\ReloadFromTutor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
