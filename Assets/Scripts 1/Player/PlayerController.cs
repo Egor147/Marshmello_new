@@ -122,6 +122,7 @@ public class PlayerController : MonoBehaviour
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
     }
     void Dead(){
+        Cursor.visible = true;
         DeadMenu.SetActive(true);
         DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
     }

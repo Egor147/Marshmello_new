@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 6673564107456011132}
   - component: {fileID: 8836604953907301903}
   - component: {fileID: 1488542675478874623}
-  - component: {fileID: 6816401842162627877}
+  - component: {fileID: 636225597664873432}
   m_Layer: 5
   m_Name: New Game
   m_TagString: Untagged
@@ -719,9 +719,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6816401842162627877}
+      - m_Target: {fileID: 636225597664873432}
         m_TargetAssemblyTypeName: ReloadGame, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -731,7 +731,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6816401842162627877
+--- !u!114 &636225597664873432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1533647048788211379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0a5162c50a88543a5f7e14c30d94dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7158673d0e8ecf24389d0d4553d7f7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1973498578461785657
@@ -821,7 +821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Reload Game
+  m_Text: New Game
 --- !u!1 &2472962557041470797
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,9 +832,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1753624116487677711}
   - component: {fileID: 7774056024214130935}
+  - component: {fileID: 7740655092153403944}
   - component: {fileID: 4847213434804446103}
   - component: {fileID: 607369339584345504}
-  - component: {fileID: 3154143817780437916}
   m_Layer: 5
   m_Name: Reload
   m_TagString: Untagged
@@ -870,6 +870,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2472962557041470797}
   m_CullTransparentMesh: 1
+--- !u!114 &7740655092153403944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472962557041470797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158673d0e8ecf24389d0d4553d7f7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4847213434804446103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,9 +956,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3154143817780437916}
+      - m_Target: {fileID: 7740655092153403944}
         m_TargetAssemblyTypeName: ReloadGame, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -956,18 +968,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3154143817780437916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2472962557041470797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0a5162c50a88543a5f7e14c30d94dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3495378754433156710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4867184949921329882
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1848,7 +1848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5282170256468570248
 RectTransform:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ public class Pause : MonoBehaviour
 
     void ZeroTime(){
         if (!Canv.activeSelf){
+            Cursor.visible = true;
             Canv.SetActive(true);
             if (!Canv.GetComponent<Transform>().Find("Pause").gameObject.activeSelf){
                 Canv.GetComponent<Transform>().Find("Pause").gameObject.SetActive(true);
@@ -23,6 +24,7 @@ public class Pause : MonoBehaviour
                 Time.timeScale = 0;
             }
         } else{
+            Cursor.visible = false;
             Canv.GetComponent<Transform>().Find("Pause").gameObject.SetActive(false);
             Canv.SetActive(false);
             Time.timeScale = 1f;

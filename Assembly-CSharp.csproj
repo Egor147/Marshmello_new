@@ -43,7 +43,6 @@
      <Compile Include="Assets\Scripts 1\Toasts\Up.cs" />
      <Compile Include="Assets\Scripts 1\For Arm\Afm_off.cs" />
      <Compile Include="Assets\Scripts 1\Fire\Comforka.cs" />
-     <Compile Include="Assets\Scripts 1\IntroManager.cs" />
      <Compile Include="Assets\Scripts 1\Water\WaterDestroyer.cs" />
      <Compile Include="Assets\Scripts 1\Water\For_Stop.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Revival.cs" />
@@ -51,7 +50,7 @@
      <Compile Include="Assets\Scripts 1\Dead.cs" />
      <Compile Include="Assets\Scripts 1\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts 1\For Arm\arm.cs" />
-     <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\NewGameInMenu.cs" />
      <Compile Include="Assets\Scripts 1\Jelly.cs" />
      <Compile Include="Assets\Scripts 1\Fire\KomforkiEnd.cs" />
      <Compile Include="Assets\Scripts 1\For Arm\Arm_on.cs" />
@@ -68,6 +67,10 @@
      <Compile Include="Assets\Scripts 1\Slipper.cs" />
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
+     <Compile Include="Assets\Scripts 1\Komix\StopScrolling.cs" />
+     <Compile Include="Assets\Scripts 1\Komix\GoToTutor.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\ReloadGame.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\ReloadFromTutor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -641,6 +644,10 @@
       <Project>{14c6e624-a09c-0a04-e38c-5936900155b4}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{399fa178-6193-be2c-40b0-c549bc009f1d}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{a0f6b33b-7e88-5f8e-90fa-a8a4175769d8}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -661,6 +668,10 @@
       <Project>{b181cef9-0ad3-028f-471f-c011e02d4a6b}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{c9b016f0-650b-a807-89cf-9872a795ecd1}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{1e34e626-a248-be6b-88a6-6244f16392f5}</Project>
       <Name>UnityEditor.UI</Name>
@@ -676,14 +687,6 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{f69b9ee7-41dc-52e2-d48f-5b02863280b6}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{c9b016f0-650b-a807-89cf-9872a795ecd1}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{399fa178-6193-be2c-40b0-c549bc009f1d}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
