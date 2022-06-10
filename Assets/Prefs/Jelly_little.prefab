@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0db06bae686e94aa2606580c0ac0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ratio: 7.5
+  Ratio: 8
 --- !u!64 &3197469953060896256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -122,5 +122,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.90552753, y: 0.30940947, z: 0.8615492}
-  m_Center: {x: 0.010960645, y: 1.075147, z: 0.043300245}
+  m_Size: {x: 1.1439877, y: 0.30940938, z: 1.1466669}
+  m_Center: {x: 0.075426035, y: 1.0751468, z: -0.04810208}
