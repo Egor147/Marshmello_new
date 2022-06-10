@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator Anim;
     private int _state;
 
+    [SerializeField] private AudioSource[] Sounds;
+
     public static float JumpPower;
     void Start()
     {
@@ -47,12 +49,14 @@ public class PlayerController : MonoBehaviour
                         if (_state !=2 && _state != 4)
                             _state = 3;
                 Move(Speed);
-            } else if (!Jumping && _state !=2 && _state != 4) 
-                    _state = 0;
+            } else if (!Jumping && _state !=2 && _state != 4){
+                        _state = 0;
+                } 
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
             //Anim.SetInteger("state",_state);
-        } else Dead();
+
+        } else StartCoroutine(Wait_for_dead());
     }
 
     void Update(){
@@ -63,8 +67,41 @@ public class PlayerController : MonoBehaviour
                     Jump(JumpPower);
                 }
 
-            Anim.SetInteger("state",_state);
-            StartCoroutine(Change_animation(0.5f, 4));
+            Change_animation(_state);
+            //StartCoroutine(Change_animation(0.5f, 4));
+            if (_state != 0)
+                for (int i=0; i<Sounds.Length;i++){
+                    if (i!=_state){
+                        if (Sounds[i].isPlaying)
+                            Sounds[_state].Stop();
+                    }
+                    else{
+                        if (!Sounds[i].isPlaying)
+                            Sounds[_state].Play();
+                    }
+                }
+                /*switch(_state){
+                    case 1:
+                        if (!Sounds[_state].isPlaying)
+                                Sounds[1].Play();
+                        
+                        break;
+                    case 2:
+                        if (!Sounds[_state].isPlaying)
+                                    Sounds[1].Play();
+                        break;
+                    case 3:
+                        if (!Sounds[_state].isPlaying)
+                                    Sounds[1].Play();
+                        break;
+                    case 4:
+                        break; 
+
+                    default:
+                        if (!Sounds[0].isPlaying)
+                            Sounds[0].Play();
+                        break;
+                }*/
         }
     }
 
@@ -74,6 +111,7 @@ public class PlayerController : MonoBehaviour
         if (!Slipper){
             inputX = Input.GetAxis("Vertical");
             rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
+
         }else{
             rb.velocity = new Vector3(SlipperSpeed,rb.velocity.y,inputZ*-Speed);
         }
@@ -96,10 +134,16 @@ public class PlayerController : MonoBehaviour
         NormalScale = true;
         tr.localScale = StartScale;
     }
-    IEnumerator Change_animation(float waitTime, int x)
+    void Change_animation(int x)
     {
-        yield return new WaitForSeconds(waitTime);
-        _state = x;
+        Anim.SetInteger("state",x);
+
+    }
+
+    IEnumerator Wait_for_dead()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Dead();
     }
 
     void Jump( float HeightJump){
@@ -114,8 +158,16 @@ public class PlayerController : MonoBehaviour
             Jumping = false;
             k=0;
         }
+
+        /*for (int i=0; i<Sounds.Length;i++){
+            if (Sounds[i].isPlaying)
+                Sounds[_state].Stop();
+        }
+
+        if (!Sounds[0].isPlaying)
+            Sounds[0].Play();
            // _state = 5;
-        //}
+        //}*/
     }
 
     void Rotation (float Rotation){
