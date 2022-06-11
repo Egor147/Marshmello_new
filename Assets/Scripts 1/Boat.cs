@@ -6,10 +6,24 @@ public class Boat : MonoBehaviour
 {
     Rigidbody rb;
     [SerializeField]private float DiveSpeed, RotationAngle;
+    [SerializeField]private GameObject Player;
+    [SerializeField]private float Speed;
     //private bool already = false;
+    private bool Player_heare;
 
     void Start() => rb = gameObject.GetComponent<Rigidbody>();
 
+    void FixedUpdate(){
+        if (Player_heare)
+            Go();
+    }
+
+    void Go(){
+        float inputZ = Input.GetAxis("Horizontal");
+        float inputX = Input.GetAxis("Vertical");
+        rb.velocity = new Vector3(inputX*Speed,DiveSpeed * Time.deltaTime,inputZ*-Speed);
+        //transform.GetChild(0).TransformPoint(new Vector3 (0,0,0));
+    }
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
             //already = true;
@@ -17,14 +31,13 @@ public class Boat : MonoBehaviour
         }
     }
     void OnTriggerStay(Collider other){
-        if(other.gameObject.CompareTag("Player")){
-            Vector3 PlayerRigidbodyVelocity = other.gameObject.GetComponent<Rigidbody>().velocity;
-            rb.velocity = new Vector3(PlayerRigidbodyVelocity.x, DiveSpeed * Time.deltaTime, PlayerRigidbodyVelocity.z);
-        }
+        if(other.gameObject.CompareTag("Player"))
+            Player_heare = true;
     }
     void OnTriggerExit(Collider other){
         if (other.gameObject.CompareTag("Player")){
             rb.velocity = new Vector3(0,0,0);
+            //Player_heare = false;
             other.gameObject.GetComponent<Rigidbody>().useGravity = true;
         }
     }

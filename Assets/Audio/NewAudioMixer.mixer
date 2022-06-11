@@ -53,6 +53,7 @@ AudioMixerController:
   - guids:
     - 66425a823cc3ac34caf4d92be04477d1
     - 3b95417ab3d3cbf4ab6328acf41deb6a
+    - 920d804efbd560442954245a9d2c3c47
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -67,6 +68,7 @@ AudioMixerGroupController:
   m_GroupID: 66425a823cc3ac34caf4d92be04477d1
   m_Children:
   - {fileID: -3352992383625612653}
+  - {fileID: 2688669652282603765}
   m_Volume: 91ced1dc833c8d2419a6f1a83ba15f53
   m_Pitch: 0fedc1fa27853734a8279e44318da4ef
   m_Send: 00000000000000000000000000000000
@@ -101,4 +103,38 @@ AudioMixerSnapshotController:
   m_SnapshotID: 2755007f8021efc40ab941dbb1ddc8f6
   m_FloatValues:
     7be6b4d6a9dc635448aeb534da00c054: 2.3
+    da72bcfd674cbd84d9061bd8572485b5: -8.48122
   m_TransitionOverrides: {}
+--- !u!243 &2688669652282603765
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jelly
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 920d804efbd560442954245a9d2c3c47
+  m_Children: []
+  m_Volume: da72bcfd674cbd84d9061bd8572485b5
+  m_Pitch: fe9ceb42957bf7146bb5b2006d065cd9
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 4643420593807473836}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &4643420593807473836
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: cfe3c04c7c69ddc4cb02364931311a0c
+  m_EffectName: Attenuation
+  m_MixLevel: 120c41dd07737094588b329e6ba29936
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

@@ -10,6 +10,8 @@ TagManager:
   - Slippery
   - Komforka
   - tost
+  - Boat
+  - Plane
   layers:
   - Default
   - TransparentFX

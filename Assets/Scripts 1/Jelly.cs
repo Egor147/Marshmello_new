@@ -5,12 +5,15 @@ using UnityEngine;
 public class Jelly : MonoBehaviour
 {
    [SerializeField] float Ratio;
+   [SerializeField] AudioSource Jump;
 
    void OnTriggerEnter(Collider other){
       if (other.gameObject.CompareTag("Player")){
          var rb = other.gameObject.GetComponent<Rigidbody>();
-        rb.velocity =  new Vector3(rb.velocity.x, Ratio, rb.velocity.z);//AddForce(new Vector3(0,Ratio,0), ForceMode.Impulse);
+         rb.velocity =  new Vector3(rb.velocity.x, Ratio, rb.velocity.z);//AddForce(new Vector3(0,Ratio,0), ForceMode.Impulse);
          PlayerController.Jumping = true;
+
+         Jump.Play();
       }
    }
 }

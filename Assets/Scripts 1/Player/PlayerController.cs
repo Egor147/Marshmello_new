@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator Anim;
     private int _state;
 
+    [SerializeField]  AudioSource Fon;
+    public bool On_boat = false;
+
     public static float JumpPower;
     void Start()
     {
@@ -38,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!GameOver){
+        if (!GameOver ){
             if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper){
                 if (!Jumping)
                     if (!Slipper)
@@ -53,11 +56,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
             //Anim.SetInteger("state",_state);
-        } else StartCoroutine(Waiting_for_dead());
+        }else if (GameOver) {StartCoroutine(Waiting_for_dead());}
     }
 
     void Update(){
-        if (!GameOver){
+        if (!GameOver && !On_boat){
             if (!Jumping)
                 if (Input.GetButtonDown("Jump")){
                     _state = 2;
@@ -120,6 +123,15 @@ public class PlayerController : MonoBehaviour
             _state = 0;
             Jumping = false;
             k=0;
+        }
+
+        if (other.gameObject.CompareTag("Boat")){
+            //transform.SetParent(other.gameObject.transform);
+            On_boat = true;
+        }
+
+        if (other.gameObject.CompareTag("Plane")){
+            Fon.Stop();
         }
            // _state = 5;
         //}

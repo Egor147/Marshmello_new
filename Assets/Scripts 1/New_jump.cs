@@ -9,6 +9,7 @@ public class New_jump : MonoBehaviour
    void OnTriggerEnter(Collider other){
       if (other.gameObject.CompareTag("Player")){
         PlayerController.JumpPower = Ratio;
+        other.gameObject.GetComponent<CapsuleCollider>().isTrigger = false;
       }
    }
 }
