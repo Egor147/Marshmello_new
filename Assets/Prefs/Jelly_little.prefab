@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3957173187536787837}
   - component: {fileID: 4160193894109210712}
   - component: {fileID: 3197469953060896256}
-  - component: {fileID: 283087378429433634}
+  - component: {fileID: 7398084592115493776}
   m_Layer: 0
   m_Name: Jelly_little
   m_TagString: Jelly
@@ -111,8 +111,8 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9111446733670104075, guid: f18573df07f262f41b1327aacbc7a33e, type: 3}
---- !u!65 &283087378429433634
-BoxCollider:
+--- !u!136 &7398084592115493776
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,6 +121,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1439877, y: 0.30940938, z: 1.1466669}
-  m_Center: {x: 0.075426035, y: 1.0751468, z: -0.04810208}
+  m_Radius: 1.0310463
+  m_Height: 2.0620925
+  m_Direction: 1
+  m_Center: {x: -0.035435215, y: 0.33502266, z: 0}
