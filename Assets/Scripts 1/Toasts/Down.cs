@@ -7,6 +7,8 @@ public class Down : MonoBehaviour
     public bool Go = false;
     Rigidbody rb;
     BoxCollider BC;
+    bool already = false;
+    [SerializeField]private AudioSource Sound;
 
     void Start() { rb = gameObject.GetComponent<Rigidbody>(); BC = gameObject.GetComponent<BoxCollider>();}
 
@@ -26,6 +28,10 @@ public class Down : MonoBehaviour
             Destroy(gameObject.GetComponent<Dead>());
             rb.mass = 100;
             BC.isTrigger = false;
+            if (!already){
+                Sound.Play();
+                already = true;
+            }
         }
     }
 

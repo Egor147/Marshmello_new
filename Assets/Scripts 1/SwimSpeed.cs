@@ -13,7 +13,7 @@ public class SwimSpeed : MonoBehaviour
         if (other.gameObject.CompareTag("Player")){
             if (!already){
                 StartSpeed = other.gameObject.GetComponent<PlayerController>().Speed;
-                other.gameObject.GetComponent<PlayerController>().Speed/=SlowSpeed;
+                other.gameObject.GetComponent<PlayerController>().Speed=SlowSpeed;
                 already = true;
             }
         }

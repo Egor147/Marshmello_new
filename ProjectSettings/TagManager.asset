@@ -8,11 +8,13 @@ TagManager:
   - Jelly
   - Checkpoint
   - Slippery
+  - Komforka
+  - tost
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Post Processing
   - Water
   - UI
   - 

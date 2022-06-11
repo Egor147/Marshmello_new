@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public static float JumpPower;
     void Start()
     {
+        Cursor.visible = false;
         JumpPower = Jump_height;
         GameOver = false;
         Slipper = false;
@@ -41,18 +42,18 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper){
                 if (!Jumping)
                     if (!Slipper)
-                        if (_state !=2 && _state != 4)
+                        if (_state !=2)
                             _state = 1;
-                    if (Jumping)
-                        if (_state !=2 && _state != 4)
+                    if (Slipper)
+                        if (_state !=2)
                             _state = 3;
                 Move(Speed);
-            } else if (!Jumping && _state !=2 && _state != 4) 
+            } else if (!Jumping && _state !=2) 
                     _state = 0;
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
             //Anim.SetInteger("state",_state);
-        } else Dead();
+        } else StartCoroutine(Waiting_for_dead());
     }
 
     void Update(){
@@ -64,7 +65,7 @@ public class PlayerController : MonoBehaviour
                 }
 
             Anim.SetInteger("state",_state);
-            StartCoroutine(Change_animation(0.5f, 4));
+            //StartCoroutine(Change_animation(0.5f, 4));
         }
     }
 
@@ -88,6 +89,12 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(Waiting(2));
         tr.localScale = new Vector3(tr.localScale.x*ScaleWhenSlide.x,tr.localScale.y*ScaleWhenSlide.y,tr.localScale.z*ScaleWhenSlide.z);
         NormalScale = false;
+    }
+
+    IEnumerator Waiting_for_dead()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Dead();
     }
 
     IEnumerator Waiting(int waitTime)
