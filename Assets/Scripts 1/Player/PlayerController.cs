@@ -128,6 +128,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Boat")){
             //transform.SetParent(other.gameObject.transform);
             On_boat = true;
+            Jumping = false;
         }
 
         if (other.gameObject.CompareTag("Plane")){

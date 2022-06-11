@@ -21,7 +21,7 @@ public class Boat : MonoBehaviour
     void Go(){
         float inputZ = Input.GetAxis("Horizontal");
         float inputX = Input.GetAxis("Vertical");
-        rb.velocity = new Vector3(inputX*Speed,DiveSpeed * Time.deltaTime,inputZ*-Speed);
+        rb.velocity = new Vector3(inputX*Speed,DiveSpeed,inputZ*-Speed);
         //transform.GetChild(0).TransformPoint(new Vector3 (0,0,0));
     }
     void OnTriggerEnter(Collider other){
@@ -31,8 +31,10 @@ public class Boat : MonoBehaviour
         }
     }
     void OnTriggerStay(Collider other){
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player")){
             Player_heare = true;
+            other.gameObject.GetComponent<Rigidbody>().mass = 0;
+        }
     }
     void OnTriggerExit(Collider other){
         if (other.gameObject.CompareTag("Player")){

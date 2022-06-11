@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts 1\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts 1\Camera\BeforeBoat.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\ExitMenu.cs" />
+     <Compile Include="Assets\Scripts 1\Stop_Time.cs" />
      <Compile Include="Assets\Scripts 1\Magnets\Weak.cs" />
      <Compile Include="Assets\Scripts 1\Water\For_Start.cs" />
      <Compile Include="Assets\Scripts 1\New_jump.cs" />
@@ -73,7 +74,7 @@
      <Compile Include="Assets\Scripts 1\Pause.cs" />
      <Compile Include="Assets\Scripts 1\MenuButs\Continue.cs" />
      <Compile Include="Assets\Scripts 1\Go_out.cs" />
-     <Compile Include="Assets\Scripts 1\Stop_Time.cs" />
+     <Compile Include="Assets\Scripts 1\MenuButs\Exit.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\user\Desktop\Projects\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

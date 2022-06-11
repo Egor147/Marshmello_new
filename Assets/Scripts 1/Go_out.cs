@@ -8,6 +8,7 @@ public class Go_out : MonoBehaviour
         if (other.gameObject.CompareTag("Player")){
             //other.gameObject.transform.SetParent(null);
             other.gameObject.GetComponent<PlayerController>().On_boat = false;
+            Debug.Log(other.gameObject.GetComponent<PlayerController>().On_boat);
         }
     }
 }
