@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!GameOver ){
+        if (!GameOver){
             if (Input.GetButton("Horizontal") || Input.GetButton("Vertical") || Slipper){
                 if (!Jumping)
                     if (!Slipper)
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update(){
-        if (!GameOver && !On_boat){
+        if (!GameOver && !On_boat && !Slipper){
             if (!Jumping)
                 if (Input.GetButtonDown("Jump")){
                     _state = 2;
@@ -68,7 +68,6 @@ public class PlayerController : MonoBehaviour
                 }
 
             Anim.SetInteger("state",_state);
-            //StartCoroutine(Change_animation(0.5f, 4));
         }
     }
 
@@ -106,11 +105,6 @@ public class PlayerController : MonoBehaviour
         NormalScale = true;
         tr.localScale = StartScale;
     }
-    IEnumerator Change_animation(float waitTime, int x)
-    {
-        yield return new WaitForSeconds(waitTime);
-        _state = x;
-    }
 
     void Jump( float HeightJump){
         Jumping = true;
@@ -129,14 +123,14 @@ public class PlayerController : MonoBehaviour
             //transform.SetParent(other.gameObject.transform);
             On_boat = true;
             Jumping = false;
+            //transform.SetParent(other.gameObject.transform);
         }
 
         if (other.gameObject.CompareTag("Plane")){
             Fon.Stop();
         }
-           // _state = 5;
-        //}
     }
+
 
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
