@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KomforkiEnd : MonoBehaviour
 {
-    [SerializeField]GameObject KomforkiMeneger;
+    [SerializeField] private GameObject KomforkiMeneger;
 
     void OnTriggerEnter(Collider other){
         if(other.gameObject.CompareTag("Player")){

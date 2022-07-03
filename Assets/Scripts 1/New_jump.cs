@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class New_jump : MonoBehaviour
 {
-    public float Ratio;
+   public float Ratio;
 
    void OnTriggerEnter(Collider other){
       if (other.gameObject.CompareTag("Player")){

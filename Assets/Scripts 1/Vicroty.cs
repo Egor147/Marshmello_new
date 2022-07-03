@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Vicroty : MonoBehaviour
 {
-    [SerializeField] GameObject VictoryMenu;
+    [SerializeField] private GameObject VictoryMenu;
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
             Cursor.visible = true;

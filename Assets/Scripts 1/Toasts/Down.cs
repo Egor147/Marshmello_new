@@ -7,7 +7,7 @@ public class Down : MonoBehaviour
     public bool Go = false;
     Rigidbody rb;
     BoxCollider BC;
-    bool already = false;
+    private bool already = false;
     [SerializeField]private AudioSource Sound;
 
     void Start() { rb = gameObject.GetComponent<Rigidbody>(); BC = gameObject.GetComponent<BoxCollider>();}

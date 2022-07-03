@@ -7,7 +7,7 @@ public class Weak : MonoBehaviour
     private Rigidbody rb;
     private Transform tr;
     [SerializeField] private float timeToFall, SpeedFall;
-     private bool PlayerOnIt = false;
+    private bool PlayerOnIt = false;
 
     void Start(){
         rb = gameObject.GetComponent<Rigidbody>();

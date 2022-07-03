@@ -4,44 +4,53 @@ using UnityEngine;
 
 public class Boat : MonoBehaviour
 {
-    Rigidbody rb;
-    [SerializeField]private float DiveSpeed, RotationAngle;
-    [SerializeField]private GameObject Player;
-    [SerializeField]private float Speed;
-    private bool Player_heare;
+    private Rigidbody rb;
+    [SerializeField]private float DiveSpeed, RotationAngle,Speed;
+    public bool Player_heare;
+    private Transform tr;
+
+    private bool already = false;
+
 
     void Start() => rb = gameObject.GetComponent<Rigidbody>();
 
     void FixedUpdate(){
-        if (Player_heare)
+        if (Player_heare){
+            rb.isKinematic = false;
             Go();
+        }
+        else{
+            rb.isKinematic = true;
+        }
     }
 
     void Go(){
         float inputZ = Input.GetAxis("Horizontal");
         float inputX = Input.GetAxis("Vertical");
         rb.velocity = new Vector3(inputX*Speed,DiveSpeed,inputZ*-Speed);
-        //Player.gameObject.GetComponent<Rigidbody>().velocity = rb.velocity;
-        //transform.GetChild(0).TransformPoint(new Vector3 (0,0,0));
+        tr.localPosition = new Vector3(0,0.828f,0);
     }
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Player")){
-            //PlayerController.CanMove = false;
-            other.gameObject.GetComponent<Rigidbody>().useGravity = false;
-            other.gameObject.GetComponent<Rigidbody>().mass = 0;
-            Player_heare = true;
+            if (!already){
+                Rigidbody rb_player = other.gameObject.GetComponent<Rigidbody>();
+                rb_player.constraints = RigidbodyConstraints.FreezeRotation;
+                rb_player.mass = 0;
+                rb_player.useGravity = false;
+                tr = other.gameObject.GetComponent<Transform>();
+                tr.SetParent(this.gameObject.transform);
+                tr.gameObject.GetComponent<PlayerController>().On_boat = true;
+                Player_heare = true;
+                already = true;
+            }
         }
     }
-    void OnTriggerStay(Collider other){
-        if(other.gameObject.CompareTag("Player")){
-            //Debug.Log("Pau");
-            //other.gameObject.GetComponent<Rigidbody>().velocity = rb.velocity;
-        }
-    }
+
     void OnTriggerExit(Collider other){
         if (other.gameObject.CompareTag("Player")){
             rb.velocity = new Vector3(0,0,0);
-            other.gameObject.GetComponent<Rigidbody>().useGravity = true;
+            //Player_heare = false;
+            //rb.useGravity = false;
         }
     }
 }

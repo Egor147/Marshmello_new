@@ -17,12 +17,9 @@ public class CameraMovement : MonoBehaviour
         Rotat = Rotation;
     }
 
-    //private void Start() => transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(Rotation),1);
     private void FixedUpdate() => CameraMove();
-
     private void CameraMove()
     {
-
         Vector3 positionToGo = player.transform.position + Offset;
         Vector3 smoothPosition = Vector3.Lerp(transform.position, positionToGo, 0.125f);
         transform.position = smoothPosition;

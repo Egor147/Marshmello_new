@@ -6,7 +6,7 @@ public class WaterDrop : MonoBehaviour
 {
     [SerializeField] GameObject Drop_prefab;
     public static bool Go;
-    bool already = false;
+    private bool already = false;
 
     void Update()
     {

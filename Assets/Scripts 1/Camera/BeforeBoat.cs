@@ -17,10 +17,5 @@ public class BeforeBoat : MonoBehaviour
             CameraMovement.Offset = NewOffset;
 
         }
-
-
     }
-
-
-
 }

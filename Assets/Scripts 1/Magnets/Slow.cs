@@ -5,7 +5,7 @@ using UnityEngine;
 public class Slow : MonoBehaviour
 {
     private Rigidbody rb;
-      [SerializeField] private float SpeedFall;
+    [SerializeField] private float SpeedFall;
 
     void Start() => rb = gameObject.GetComponent<Rigidbody>();
 

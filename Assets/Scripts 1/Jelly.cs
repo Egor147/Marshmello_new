@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Jelly : MonoBehaviour
 {
-   [SerializeField] float Ratio;
-   [SerializeField] AudioSource Jump;
+   [SerializeField] private float Ratio;
+   [SerializeField] private AudioSource Jump;
 
    void OnTriggerEnter(Collider other){
       if (other.gameObject.CompareTag("Player")){

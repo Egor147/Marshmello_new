@@ -5,7 +5,7 @@ using UnityEngine;
 public class Toast : MonoBehaviour
 {
 
-    Rigidbody rb;
+    private Rigidbody rb;
     [SerializeField]private List<GameObject> MyDown = new List<GameObject>();
     public static bool Go = false;
     [SerializeField] private float Wait_time;

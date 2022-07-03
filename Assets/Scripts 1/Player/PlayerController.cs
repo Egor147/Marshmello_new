@@ -12,13 +12,13 @@ public class PlayerController : MonoBehaviour
     public static bool GameOver, Jumping, Slipper;
     private bool NormalScale;
     private Vector3 StartScale, Rotate;
-    Transform tr;
-    Rigidbody rb;
+    private Transform tr;
+    private Rigidbody rb;
     public static float k = 0f;
     [SerializeField] private Animator Anim;
     private int _state;
 
-    [SerializeField]  AudioSource Fon;
+    [SerializeField] private AudioSource Fon;
     public bool On_boat = false;
 
     public static float JumpPower;
@@ -55,42 +55,44 @@ public class PlayerController : MonoBehaviour
                     _state = 0;
             if (Input.GetButtonDown("Slide") && NormalScale)
                 Slide();
-            //Anim.SetInteger("state",_state);
         }else if (GameOver) {StartCoroutine(Waiting_for_dead());}
     }
 
     void Update(){
-        if (!GameOver && !On_boat && !Slipper){
-            if (!Jumping)
+        if (!GameOver && !Slipper){
+            if (!Jumping && tr.parent == null)
                 if (Input.GetButtonDown("Jump")){
                     _state = 2;
                     Jump(JumpPower);
                 }
-
-            Anim.SetInteger("state",_state);
         }
+        Anim.SetInteger("state",_state);
     }
 
     public void Move(float Speed){
-        float inputZ = Input.GetAxis("Horizontal");
-        float inputX = 1f;
-        if (!Slipper){
-            inputX = Input.GetAxis("Vertical");
-            rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
-        }else{
-            rb.velocity = new Vector3(SlipperSpeed,rb.velocity.y,inputZ*-Speed);
+        if (!On_boat){
+            float inputZ = Input.GetAxis("Horizontal");
+            float inputX = 1f;
+            if (!Slipper){
+                inputX = Input.GetAxis("Vertical");
+                rb.velocity = new Vector3(inputX*Speed,rb.velocity.y,inputZ*-Speed);
+            }else{
+                rb.velocity = new Vector3(SlipperSpeed,rb.velocity.y,inputZ*-Speed);
+            }
+        
+            if (inputX<0)
+                Rotation((RotationAngle*-inputZ + 180));
+            else
+                Rotation(RotationAngle*inputZ);
         }
-    
-        if (inputX<0)
-            Rotation((RotationAngle*-inputZ + 180));
-        else
-            Rotation(RotationAngle*inputZ);
     }
 
     void Slide(){
-        StartCoroutine(Waiting(2));
-        tr.localScale = new Vector3(tr.localScale.x*ScaleWhenSlide.x,tr.localScale.y*ScaleWhenSlide.y,tr.localScale.z*ScaleWhenSlide.z);
-        NormalScale = false;
+        if (!On_boat){
+            StartCoroutine(Waiting_for_normal_Scale(2));
+            tr.localScale = new Vector3(tr.localScale.x*ScaleWhenSlide.x,tr.localScale.y*ScaleWhenSlide.y,tr.localScale.z*ScaleWhenSlide.z);
+            NormalScale = false;
+        }
     }
 
     IEnumerator Waiting_for_dead()
@@ -99,7 +101,7 @@ public class PlayerController : MonoBehaviour
         Dead();
     }
 
-    IEnumerator Waiting(int waitTime)
+    IEnumerator Waiting_for_normal_Scale(int waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         NormalScale = true;
@@ -112,7 +114,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        //if(other.gameObject.CompareTag("Ground")){
         if (Jumping && !other.gameObject.CompareTag("Jelly")){
             _state = 0;
             Jumping = false;
@@ -120,10 +121,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (other.gameObject.CompareTag("Boat")){
-            //transform.SetParent(other.gameObject.transform);
-            On_boat = true;
             Jumping = false;
-            //transform.SetParent(other.gameObject.transform);
         }
 
         if (other.gameObject.CompareTag("Plane")){
@@ -131,11 +129,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     void Rotation (float Rotation){
         tr.rotation = Quaternion.AngleAxis(Rotation, Vector3.up);
     }
+
     void Dead(){
+        transform.SetParent(null);
         Cursor.visible = true;
         DeadMenu.SetActive(true);
         DeadMenu.GetComponent<Transform>().Find("Dead").gameObject.SetActive(true);
